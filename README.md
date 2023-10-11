@@ -1,0 +1,1 @@
+Hola aquí se construirá la app para el emprendimiento de peluquería y estética.
