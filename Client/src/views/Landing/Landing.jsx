@@ -7,6 +7,9 @@ const Landing = () => {
 	return (
 		<>
 			<div className={style.container}>
+				<div className={style.image}>
+      		
+    		</div>
 			</div>
 		</>
 	)

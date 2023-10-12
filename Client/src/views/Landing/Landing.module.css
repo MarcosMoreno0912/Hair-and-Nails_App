@@ -6,3 +6,21 @@
 	scroll-snap-stop: center;
 	white-space: nowrap;
 }
+
+.container .image {
+  height: 700px;
+  width: 103%;
+  background-image: url('../../assets/fondoRosado.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container .image .principalTitle {
+  height: 700px;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}

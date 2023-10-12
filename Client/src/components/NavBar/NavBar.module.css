@@ -38,6 +38,7 @@
   flex-wrap: wrap;
   align-items: right;
   justify-content: right;
+  margin-left: 20px;
 }
 
 .navButton button {
@@ -48,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 22px;
+  margin-left: 14px;
   cursor: pointer;
 }
 
