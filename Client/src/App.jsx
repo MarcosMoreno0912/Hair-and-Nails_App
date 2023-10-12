@@ -3,12 +3,17 @@ import Landing from './views/Landing/Landing.jsx'
 import Jobs from './views/Jobs/Jobs.jsx'
 import Services from './views/Services/Services.jsx'
 import Contact from './views/Contact/Contact.jsx'
+import NavBar from './components/NavBar/NavBar.jsx'
 import './App.module.css'
 
 const App = () => {
+  const location = useLocation()
+
+  const navRoutes = ['/', '/services', '/jobs', '/contact']
 
   return (
     <>
+      {navRoutes.includes(location.pathname) && <NavBar />}
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/services" element={<Services />} />

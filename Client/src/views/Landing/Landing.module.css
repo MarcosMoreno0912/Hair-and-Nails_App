@@ -1,3 +1,8 @@
-h1 {
-	font-size: 30px;
+.container {
+	height: 100%;
+	width: 100%;
+	scroll-snap-type: x mandatory;
+	scroll-snap-align: center;
+	scroll-snap-stop: center;
+	white-space: nowrap;
 }

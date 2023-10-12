@@ -1,1 +1,64 @@
-NavBar.module.css
+.navbar {
+  background-color: #000000;
+  height: 100px;
+  width: 100%; /* Ajustado para que sea responsive */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .ellipse:hover {
+  transform: scale(1.1);
+}
+
+.logo .ellipse {
+  background-color: #ffbaba;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+}
+
+.logo span {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 45px;
+}
+
+/* Botones de Navegación */
+.containerButtons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+}
+
+.navButton button {
+  background-color: #ffbaba;
+  border-radius: 5px;
+  height: 50px;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.navButton button:hover {
+  transform: scale(1.1);
+}
+
+.navButton button {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './Landing.module.css'
+import NavBar from '../../components/NavBar/NavBar.jsx'
 
 const Landing = () => {
 
 	return (
 		<>
-			<div>
-				<h1>Bienvenidos a la view Landing</h1>
+			<div className={style.container}>
 			</div>
 		</>
 	)
