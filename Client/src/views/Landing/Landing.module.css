@@ -16,11 +16,76 @@
   background-repeat: no-repeat;
 }
 
-.container .image .principalTitle {
-  height: 700px;
-  left: 0;
-  object-fit: cover;
-  position: fixed;
-  top: 0;
-  width: 1440px;
+
+.image .principalTitle {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 6.5vw;
+  font-weight: 400;
+  height: 100px;
+  left: 5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000095;
+  top: 13vw;
+  width: 700px;
 }
+/*---------Logos de Tijera y esmalte---------*/
+.logoTijeraYesmalte {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 26vw;
+    margin-left: 71vw;
+    margin-top: 7vw;
+}
+
+.logoTijeraYesmalte .div {
+    height: 305.21px;
+    position: relative;
+    width: 379px;
+}
+
+.logoTijeraYesmalte .esmalte {
+    height: 242px;
+    left: 190px;
+    position: absolute;
+    top: 63px;
+    width: 161px;
+    background-image: url("../../assets/Esmalte.svg");
+}
+
+.logoTijeraYesmalte .tijeras {
+    height: 165px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 149px;
+    background-image: url("../../assets/Tijeras.svg");
+}
+/*Texto debajo del título principal*/
+.label {
+    height: 169px;
+    width: 60vw;
+    margin-left: 2.5vw;
+    margin-top: -13vw;
+}
+
+.label .textWrapper {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    height: 169px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 2vw;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 60vw;
+}
+/*----------------------------------------*/
