@@ -242,3 +242,182 @@
   width: 660px;
 }
 /*-----------------------Promos Peluqueria--------------------*/
+.promosPeluqueria {
+  background-color: #678a7480;
+  height: 450px;
+  position: relative;
+  width: 103%;
+  top: 51.75vw;
+}
+
+.promosPeluqueria .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: 28vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosPeluqueria .div {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: 53vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosPeluqueria .textWrapper2 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: 79vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosPeluqueria .rectangle {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 2.7%;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+
+.promosPeluqueria .rectangle2 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 28%;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+
+.promosPeluqueria .rectangle3 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 53%;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+
+.promosPeluqueria .rectangle4 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 78%;
+  position: absolute;
+  top: 24px;
+  width: 270px;
+}
+
+.promosPeluqueria .textWrapper3 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: 2vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosPeluqueria .donecLaoreetRutrum {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 84px;
+  left: 1.3vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 340px;
+  width: 309px;
+}
+
+.promosPeluqueria .span {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.promosPeluqueria .textWrapper4 {
+  font-size: 32px;
+}
+
+.promosPeluqueria .p {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 84px;
+  left: 78.3vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 340px;
+  width: 307px;
+}
+
+.promosPeluqueria .donecLaoreetRutrum2 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 84px;
+  left: 27.3vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 340px;
+  width: 307px;
+}
+
+.promosPeluqueria .donecLaoreetRutrum3 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 84px;
+  left: 52.8vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 340px;
+  width: 305px;
+}

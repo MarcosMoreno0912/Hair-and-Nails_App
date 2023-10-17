@@ -42,6 +42,32 @@ const Landing = () => {
 						</div>
 					</div>
     		</div>
+    		<div className={style.promosPeluqueria}>
+					<div className={style.textWrapper}>Promo 2</div>
+					<div className={style.div}>Promo 3</div>
+					<div className={style.textWrapper2}>Promo 4</div>
+					<div className={style.rectangle} />
+					<div className={style.rectangle2} />
+					<div className={style.rectangle3} />
+					<div className={style.rectangle4} />
+					<div className={style.textWrapper3}>Promo 1</div>
+						<p className={style.donecLaoreetRutrum}>
+							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.textWrapper4}>.</span>
+						</p>
+						<p className={style.p}>
+							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.textWrapper4}>.</span>
+						</p>
+						<p className={style.donecLaoreetRutrum2}>
+							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.textWrapper4}>.</span>
+						</p>
+						<p className={style.donecLaoreetRutrum3}>
+							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.textWrapper4}>.</span>
+						</p>
+				</div>
 			</div>
 		</>
 	)
