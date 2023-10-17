@@ -68,6 +68,16 @@ const Landing = () => {
 							<span className={style.textWrapper4}>.</span>
 						</p>
 				</div>
+				<div className={style.seccionManicura}>
+					<div className={style.overlapGroup}>
+						<div className={style.rectangle} />
+						<p className={style.textWrapper}>
+							Donec laoreet rutrum libero sed pharetra.<br/> Duis a arcu convallis, gravida purus eget,<br/> mollis diam.
+						</p>
+						<div className={style.div} />
+						<div className={style.textWrapper2}>Manicura</div>
+					</div>
+				</div>
 			</div>
 		</>
 	)

@@ -421,3 +421,74 @@
   top: 340px;
   width: 305px;
 }
+/*------------------Seccion Manicura---------------*/
+.seccionManicura {
+  background-image: url('../../assets/fondoSeccionManicura.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 103%;
+  margin-top: 51.75vw;
+}
+
+.seccionManicura .overlapGroup {
+  background-color: #ffbaba;
+  background-size: 100% 100%;
+  height: 400px;
+  left: 39px;
+  position: relative;
+  top: 1.75vw;
+  width: 660px;
+}
+
+.seccionManicura .rectangle {
+  background-color: #ffbaba;
+  height: 224px;
+  left: 0;
+  position: absolute;
+  top: 157px;
+  width: 660px;
+}
+
+.seccionManicura .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  height: 224px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 15vw;
+  width: 660px;
+}
+
+.seccionManicura .div {
+  background-color: #ffbaba;
+  height: 68px;
+  left: 135px;
+  position: absolute;
+  top: 89px;
+  width: 390px;
+}
+
+.seccionManicura .textWrapper2 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 6vw;
+  font-weight: 400;
+  height: 68px;
+  left: 135px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 5vw;
+  white-space: nowrap;
+  width: 390px;
+}
+
+
