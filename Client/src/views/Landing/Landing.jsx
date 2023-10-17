@@ -78,6 +78,40 @@ const Landing = () => {
 						<div className={style.textWrapper2}>Manicura</div>
 					</div>
 				</div>
+				<div className={style.promosManicura}>
+					<div className={style.overlap}>
+						<p className={style.donecLaoreetRutrum}>
+							<span className={style.textwrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.span}>.</span>
+						</p>
+						<div className={style.div}>Promo 4</div>
+					</div>
+					<div className={style.overlapGroup}>
+						<div className={style.div}>Promo 3</div>
+						<p className={style.donecLaoreetRutrum}>
+							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.span}>.</span>
+						</p>
+					</div>
+					<div className={style.rectangle} />
+					<div className={style.overlapGroup2}>
+						<div className={style.textWrapper2}>Promo 1</div>
+						<p className={style.donecLaoreetRutrum}>
+							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.span}>.</span>
+						</p>
+					</div>
+					<div className={style.overlap2}>
+						<div className={style.textWrapper3}>Promo 2</div>
+						<p className={style.donecLaoreetRutrum}>
+							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
+							<span className={style.span}>.</span>
+						</p>
+					</div>
+					<div className={style.rectangle2} />
+					<div className={style.rectangle4} ></div>
+					<div className={style.rectangle3} />
+				</div>
 			</div>
 		</>
 	)

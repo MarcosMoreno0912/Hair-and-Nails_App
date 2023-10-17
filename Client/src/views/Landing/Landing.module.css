@@ -490,5 +490,154 @@
   white-space: nowrap;
   width: 390px;
 }
+/*----------Promos manicura-----------*/
+.promosManicura {
+  background-color: #678a7480;
+  height: 450px;
+  position: relative;
+  width: 103%;
+}
 
+.promosManicura .overlap {
+  height: 117px;
+  left: 1092px;
+  position: absolute;
+  top: 306px;
+  width: 295px;
+}
+
+.promosManicura .donecLaoreetRutrum {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  height: 84px;
+  left: -1.5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  width: 309px;
+}
+
+.promosManicura .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.promosManicura .span {
+  font-size: 32px;
+}
+
+.promosManicura .div {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: -1vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosManicura .overlapGroup {
+  height: 117px;
+  left: 741px;
+  position: absolute;
+  top: 306px;
+  width: 309px;
+}
+
+.promosManicura .rectangle {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 2.7%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
+
+.promosManicura .overlapGroup2 {
+  height: 117px;
+  left: 41px;
+  position: absolute;
+  top: 306px;
+  width: 309px;
+}
+
+.promosManicura .textWrapper2 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: -1vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosManicura .overlap2 {
+  height: 117px;
+  left: 391px;
+  position: absolute;
+  top: 306px;
+  width: 309px;
+}
+
+.promosManicura .textWrapper3 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  left: -0.5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 290px;
+}
+
+.promosManicura .rectangle2 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 28%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
+
+.promosManicura .rectangle4 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 53%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
+
+.promosManicura .rectangle3 {
+  background-color: #d9d9d9;
+  height: 270px;
+  left: 78%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
 
