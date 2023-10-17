@@ -34,58 +34,211 @@
 }
 /*---------Logos de Tijera y esmalte---------*/
 .logoTijeraYesmalte {
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 26vw;
-    margin-left: 71vw;
-    margin-top: 7vw;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 26vw;
+  margin-left: 71vw;
+  margin-top: 7vw;
 }
 
 .logoTijeraYesmalte .div {
-    height: 305.21px;
-    position: relative;
-    width: 379px;
+  height: 305.21px;
+  position: relative;
+  width: 379px;
 }
 
 .logoTijeraYesmalte .esmalte {
-    height: 242px;
-    left: 190px;
-    position: absolute;
-    top: 63px;
-    width: 161px;
-    background-image: url("../../assets/Esmalte.svg");
+  height: 242px;
+  left: 190px;
+  position: absolute;
+  top: 63px;
+  width: 161px;
+  background-image: url("../../assets/Esmalte.svg");
 }
 
 .logoTijeraYesmalte .tijeras {
-    height: 165px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 149px;
-    background-image: url("../../assets/Tijeras.svg");
+  height: 165px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 149px;
+  background-image: url("../../assets/Tijeras.svg");
 }
 /*Texto debajo del título principal*/
 .label {
-    height: 169px;
-    width: 60vw;
-    margin-left: 2.5vw;
-    margin-top: -13vw;
+  height: 169px;
+  width: 60vw;
+  margin-left: 2.5vw;
+  margin-top: -13vw;
 }
 
 .label .textWrapper {
-    color: #000000;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    height: 169px;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 2vw;
-    position: relative;
-    text-align: center;
-    top: 0;
-    width: 60vw;
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  height: 169px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 2vw;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 60vw;
 }
 /*----------------------------------------*/
+
+.containerVerde {
+  background-color: #678a74;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  margin-top: 10vw;
+}
+
+.containerVerde .ellipse1 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  left: 4vw;
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url('../../assets/ellipse1Verde.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.containerVerde .ellipse2 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  left: 29vw;
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url('../../assets/ellipse2Verde.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.containerVerde .ellipse3 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  left: 54vw;
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url('../../assets/ellipse3Verde.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.containerVerde .ellipse4 {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  left: 79vw;
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: url('../../assets/ellipse4Verde.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*----------------------Imagen Sección Peluqueria------------------------------*/
+.imagenSeccion {
+  height: 450px;
+  width: 100%;
+}
+
+.imagenSeccion .overlapGroup {
+  height: 450px;
+  position: relative;
+}
+
+.imagenSeccion .img {
+  height: 450px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url('../../assets/seccionPeluqueria.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imagenSeccion .cuadroRosa {
+  background-color: #ffbaba;
+  height: 400px;
+  left: 52vw;
+  position: absolute;
+  top: 25px;
+  width: 47vw;
+}
+
+.imagenSeccion .tituloSecundario {
+  background-color: #ffbaba;
+  height: 9vw;
+  left: 60.5vw;
+  position: relative;
+  top: 5vw;
+  width: 390px;
+}
+
+.imagenSeccion .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 6vw;
+  font-weight: 400;
+  height: 9vw;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 390px;
+}
+
+.imagenSeccion .text {
+  background-color: #ffbaba;
+  height: 224px;
+  left: 52vw;
+  position: absolute;
+  top: 14vw;
+  width: 47vw;
+}
+
+.imagenSeccion .p {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  height: 7vw;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  top: 2vw;
+  width: 660px;
+}
+/*-----------------------Promos Peluqueria--------------------*/

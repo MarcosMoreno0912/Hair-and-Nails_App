@@ -21,6 +21,26 @@ const Landing = () => {
 							augue elit, rhoncus ac sodales id, porttitor vitae est.
 						</p>
 					</div>
+					<div className={style.containerVerde}>
+						<div className={style.ellipse1} ></div>
+						<div className={style.ellipse2} ></div>
+						<div className={style.ellipse3} ></div>
+						<div className={style.ellipse4} ></div>
+					</div>
+					<div className={style.imagenSeccion}>
+						<div className={style.overlapGroup}>
+							<div className={style.img} ></div>
+							<div className={style.cuadroRosa} />
+							<div className={style.tituloSecundario}>
+								<div className={style.textWrapper}>Peluquería</div>
+							</div>
+							<div className={style.text}>
+								<p className={style.p}>
+									Donec laoreet rutrum libero sed pharetra. <br/>Duis a arcu convallis, gravida <br/>purus eget, mollis diam.
+								</p>
+							</div>
+						</div>
+					</div>
     		</div>
 			</div>
 		</>
