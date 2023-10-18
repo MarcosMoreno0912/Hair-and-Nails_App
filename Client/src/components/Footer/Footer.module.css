@@ -1,1 +1,243 @@
-Footer.module.css
+.footer {
+  height: 333px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.footer .overlapGroup {
+  background-color: #000000;
+  height: 300px;
+  left: 0;
+  right: 5vw;
+  position: absolute;
+  top: 0;
+  width: 103%;
+}
+
+.footer .rectangle {
+  height: 32px;
+  left: 586px;
+  background-image: url('../../assets/phone.png');
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  position: absolute;
+  top: 241px;
+  width: 32px;
+}
+
+.footer .img {
+  height: 32px;
+  left: 586px;
+  background-image: url('../../assets/instagram.png');
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  position: absolute;
+  top: 206px;
+  width: 32px;
+}
+
+.footer .line {
+  height: 3px;
+  left: 4vw;
+  background-image: url('../../assets/Line.png');
+  position: absolute;
+  top: 41px;
+  width: 528px;
+}
+
+.footer .line2 {
+  height: 3px;
+  left: 804px;
+  background-image: url('../../assets/Line.png');
+  position: absolute;
+  top: 41px;
+  width: 528px;
+}
+
+.footer .direccion {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  left: 102px;
+  letter-spacing: 0;
+  line-height: none;
+  position: absolute;
+  top: 8vw;
+  width: 248px;
+}
+
+.footer .textWrapper {
+  color: #ffbaba;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 38px;
+  left: 102px;
+  letter-spacing: 0;
+  line-height: none;
+  position: absolute;
+  top: 82px;
+  white-space: nowrap;
+  width: 224px;
+}
+
+.footer .ellipse {
+  height: 54px;
+  left: 3.5vw;
+  background-image: url('../../assets/location.svg');
+  mix-blend-mode: luminosity;
+  position: absolute;
+  top: 9.3vw;
+  width: 54px;
+}
+
+.footer .ellipse2 {
+  height: 74px;
+  left: 48.5vw;
+  background-image: url('../../assets/mandala.png');
+  mix-blend-mode: luminosity;
+  position: absolute;
+  top: 4px;
+  width: 74px;
+}
+
+.footer .div {
+  color: #ffbaba;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 46px;
+  left: 545px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 79px;
+  width: 310px;
+}
+
+.footer .overlap {
+  height: 148px;
+  left: 629px;
+  position: absolute;
+  top: 130px;
+  width: 310px;
+}
+
+.footer .caroPeluqueria {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: absolute;
+  top: 1px;
+  width: 310px;
+}
+
+.footer .page {
+  height: 55px;
+  left: 232px;
+  background-image: url('../../assets/Tijerasrosadas.svg');
+  position: absolute;
+  top: 0;
+  width: 59px;
+}
+
+.footer .vector {
+  height: 5.15vw;
+  left: 230px;
+  background-image: url('../../assets/Esmalterosado.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70px;
+  width: 5.2vw;
+}
+
+.footer .rectangle2 {
+  height: 32px;
+  left: 586px;
+  background-image: url('../../assets/instagram.png');
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  position: absolute;
+  top: 126px;
+  width: 32px;
+}
+
+.footer .rectangle3 {
+  height: 32px;
+  left: 586px;
+  background-image: url('../../assets/phone.png');
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  position: absolute;
+  top: 161px;
+  width: 32px;
+}
+
+.footer .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 139px;
+  left: 1090px;
+  position: absolute;
+  top: 126px;
+  width: 242px;
+}
+
+.footer .text {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+}
+
+.footer .span {
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.footer .textWrapper2 {
+  color: #ffbaba;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  left: 1159px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 82px;
+  width: 176px;
+}
+
+.footer .elementStilistNails {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  left: 252px;
+  letter-spacing: 0;
+  line-height: 0;
+  position: absolute;
+  text-align: center;
+  top: 21.5vw;
+  white-space: nowrap;
+}
