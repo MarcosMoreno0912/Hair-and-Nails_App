@@ -117,6 +117,7 @@ const Services = () => {
 						<span className={style.textWrapper}> Pedicura y Spa de pies &lt;</span>
 					</p>
 				</div>
+				<div className={style.fotosManicura}></div>
 			</div>
 		</>
 	)

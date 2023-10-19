@@ -124,3 +124,13 @@
   font-weight: 400;
   letter-spacing: 1.28px;
 }
+
+.fotosManicura {
+  height: 420px;
+  width: 499px;
+  background-image: url('../../assets/FotosServiciosManicura.svg');
+  position: relative;
+  top: -26.8vw;
+  left: 2.5vw;
+  transform: rotate(180deg);
+}
