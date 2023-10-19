@@ -1,3 +1,126 @@
-h1 {
-	font-size: 30px;
+.tituloServicios {
+  background-color: #678a7480;
+  height: 98px;
+  position: relative;
+  width: 103%;
+}
+
+.tituloServicios .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 4.5vw;
+  font-weight: 400;
+  height: 93px;
+  left: 3.5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0.15vw;
+}
+
+.fotosPeluqueria {
+  height: 421px;
+  width: 554px;
+  background-image: url('../../assets/FotosServiciosPelu.svg');
+  position: relative;
+  top: -28.8vw;
+  left: 58.5vw;
+}
+
+.serviciosPelu {
+  background-color: #ffbf9a;
+  height: 442px;
+  width: 103%;
+}
+
+.serviciosPelu .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 402px;
+  left: 3.5vw;
+  position: relative;
+  top: 0.5vw;
+  width: 779px;
+}
+
+.serviciosPelu .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.28px;
+  line-height: 0.45vw;
+  position: relative;
+}
+
+.serviciosPelu .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.28px;
+}
+
+/*------------ Servicios Manicura -------------*/
+.tituloManicura {
+  background-color: #678a7480;
+  height: 99px;
+  position: relative;
+  width: 103%;
+}
+
+.tituloManicura .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  height: 93px;
+  left: 55.5vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+}
+
+.serviciosManicura {
+  background-color: #ffbaba;
+  height: 442px;
+  width: 103%;
+}
+
+.serviciosManicura .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  height: 377px;
+  left: 40.5vw;
+  position: relative;
+  top: 0.9vw;
+  width: 784px;
+}
+
+.serviciosManicura .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.28px;
+  line-height: 0.8vw;
+  position: relative;
+  text-align: right;
+}
+
+.serviciosManicura .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.28px;
 }
