@@ -11,7 +11,7 @@ const App = () => {
   const location = useLocation()
 
   const navRoutes = ['/', '/services', '/jobs', '/contact']
-  const footerRoutes = ['/','/services']
+  const footerRoutes = ['/','/services','/jobs', '/contact']
 
   return (
     <>

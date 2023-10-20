@@ -1,3 +1,274 @@
-h1 {
-	font-size: 30px;
+.titulo {
+  background-color: #678a7480;
+  height: 98px;
+  position: relative;
+  width: 103%;
 }
+
+.titulo .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  height: 93px;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+/*------------- Fotos -----------*/
+.recuadroDeFotos {
+  background-color: #ffbaba;
+  height: 983px;
+  position: relative;
+  width: 103%;
+}
+
+.recuadroDeFotos .rectangle {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 720px;
+  position: absolute;
+  top: 290px;
+  width: 190px;
+}
+
+.recuadroDeFotos .div {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 960px;
+  position: absolute;
+  top: 291px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle2 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 1200px;
+  position: absolute;
+  top: 290px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle3 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 20px;
+  position: absolute;
+  top: 291px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle4 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 240px;
+  position: absolute;
+  top: 291px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle5 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 460px;
+  position: absolute;
+  top: 290px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle6 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 1120px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle7 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 20px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle8 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 20px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle9 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 240px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle10 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 240px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle11 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 480px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle12 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 480px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle13 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 720px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle14 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 720px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle15 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 960px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle16 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 960px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle17 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 1200px;
+  position: absolute;
+  top: 583px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle18 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 1200px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle19 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 20px;
+  position: absolute;
+  top: 783px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle20 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 460px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle21 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 680px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle22 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 900px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .rectangle23 {
+  background-color: #d9d9d9;
+  height: 180px;
+  left: 240px;
+  position: absolute;
+  top: 92px;
+  width: 190px;
+}
+
+.recuadroDeFotos .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  height: 62px;
+  left: 500px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 440px;
+}
+
+.recuadroDeFotos .textWrapper2 {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  height: 60px;
+  left: 500px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 500px;
+  width: 440px;
+}
+
