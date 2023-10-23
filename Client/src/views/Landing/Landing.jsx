@@ -8,7 +8,7 @@ const Landing = () => {
 		<>
 			<div className={style.container}>
 				<div className={style.image}>
-					<div className={style.principalTitle}>Estilist &amp; Nails Salon</div>
+					<div className={style.principalTitle}>Glamour Beauty Salon</div>
     			<div className={style.logoTijeraYesmalte}>
 						<div className={style.div}>
 							<div className={style.esmalte}></div>

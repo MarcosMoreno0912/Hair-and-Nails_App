@@ -62,7 +62,7 @@ const Footer = () => {
                 <div className={style.textWrapper2}>Descubre</div>
             </div>
             <p className={style.elementStilistNails}>
-                2023 Stilist &amp; Nails - Todos los derechos reservados | Desarrollado por Marcos Moreno
+                2023 Glamour Estética - Todos los derechos reservados | Desarrollado por Marcos Moreno
             </p>
         </div>
     );
