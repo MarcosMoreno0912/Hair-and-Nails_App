@@ -11,7 +11,7 @@
   font-size: 64px;
   font-weight: 400;
   height: 93px;
-  left: 88px;
+  left: 36vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -29,7 +29,7 @@
 .recuadroDeFotos .rectangle {
   background-color: #d9d9d9;
   height: 180px;
-  left: 720px;
+  left: 52vw;
   position: absolute;
   top: 290px;
   width: 190px;
@@ -38,7 +38,7 @@
 .recuadroDeFotos .div {
   background-color: #d9d9d9;
   height: 180px;
-  left: 960px;
+  left: 68.82vw;
   position: absolute;
   top: 291px;
   width: 190px;
@@ -47,7 +47,7 @@
 .recuadroDeFotos .rectangle2 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 1200px;
+  left: 85.7vw;
   position: absolute;
   top: 290px;
   width: 190px;
@@ -56,7 +56,7 @@
 .recuadroDeFotos .rectangle3 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 20px;
+  left: 2.2vw;
   position: absolute;
   top: 291px;
   width: 190px;
@@ -65,7 +65,7 @@
 .recuadroDeFotos .rectangle4 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 240px;
+  left: 18.65vw;
   position: absolute;
   top: 291px;
   width: 190px;
@@ -74,7 +74,7 @@
 .recuadroDeFotos .rectangle5 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 460px;
+  left: 35.16vw;
   position: absolute;
   top: 290px;
   width: 190px;
@@ -83,7 +83,7 @@
 .recuadroDeFotos .rectangle6 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 1120px;
+  left: 85.7vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -92,7 +92,7 @@
 .recuadroDeFotos .rectangle7 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 20px;
+  left: 2.2vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -101,7 +101,7 @@
 .recuadroDeFotos .rectangle8 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 20px;
+  left: 2.2vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -110,7 +110,7 @@
 .recuadroDeFotos .rectangle9 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 240px;
+  left: 18.65vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -119,7 +119,7 @@
 .recuadroDeFotos .rectangle10 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 240px;
+  left: 18.65vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -128,7 +128,7 @@
 .recuadroDeFotos .rectangle11 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 480px;
+  left: 35.16vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -137,7 +137,7 @@
 .recuadroDeFotos .rectangle12 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 480px;
+  left: 35.16vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -146,7 +146,7 @@
 .recuadroDeFotos .rectangle13 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 720px;
+  left: 52.2vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -155,7 +155,7 @@
 .recuadroDeFotos .rectangle14 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 720px;
+  left: 52.2vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -164,7 +164,7 @@
 .recuadroDeFotos .rectangle15 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 960px;
+  left: 68.82vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -173,7 +173,7 @@
 .recuadroDeFotos .rectangle16 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 960px;
+  left: 68.82vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -182,7 +182,7 @@
 .recuadroDeFotos .rectangle17 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 1200px;
+  left: 85.7vw;
   position: absolute;
   top: 583px;
   width: 190px;
@@ -191,7 +191,7 @@
 .recuadroDeFotos .rectangle18 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 1200px;
+  left: 85.7vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -200,7 +200,7 @@
 .recuadroDeFotos .rectangle19 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 20px;
+  left: 2.2vw;
   position: absolute;
   top: 783px;
   width: 190px;
@@ -209,7 +209,7 @@
 .recuadroDeFotos .rectangle20 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 460px;
+  left: 35.15vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -218,7 +218,7 @@
 .recuadroDeFotos .rectangle21 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 680px;
+  left: 52vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -227,7 +227,7 @@
 .recuadroDeFotos .rectangle22 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 900px;
+  left: 68.85vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -236,7 +236,7 @@
 .recuadroDeFotos .rectangle23 {
   background-color: #d9d9d9;
   height: 180px;
-  left: 240px;
+  left: 18.7vw;
   position: absolute;
   top: 92px;
   width: 190px;
@@ -248,7 +248,7 @@
   font-size: 48px;
   font-weight: 400;
   height: 62px;
-  left: 500px;
+  left: 35vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -263,7 +263,7 @@
   font-size: 48px;
   font-weight: 400;
   height: 60px;
-  left: 500px;
+  left: 35vw;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
