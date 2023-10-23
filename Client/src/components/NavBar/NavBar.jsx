@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <div className={styles.ellipse}></div>
-        <span>Estilist & Nails</span>
+        <span>Glamour Estética</span>
       </div>
       <div className={styles.containerButtons}>
         <div className={styles.navButton}>

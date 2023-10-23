@@ -34,7 +34,7 @@ const Jobs = () => {
 				<div className={style.rectangle22} />
 				<div className={style.rectangle23} />
 				<div className={style.textWrapper}>Peluquería</div>
-				<div className={style.textWrapper2}>Manicura</div>
+				<div className={style.textWrapper2}>Manicura y Pestañas</div>
 			</div>
 		</>
 	)
