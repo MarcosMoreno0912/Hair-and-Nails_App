@@ -5,6 +5,9 @@ const Contact = () => {
 
 	return (
 		<>
+			<div className={style.tituloNuestros}>
+      	<div className={style.textWrapper}>Contacto</div>
+    	</div>
 		</>
 	)
 }

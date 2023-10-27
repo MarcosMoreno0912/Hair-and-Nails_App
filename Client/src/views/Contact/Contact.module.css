@@ -1,3 +1,22 @@
-h1 {
-	font-size: 30px;
+.tituloNuestros {
+  background-color: #678a7480;
+  height: 98px;
+  position: relative;
+  width: 103%;
+}
+
+.tituloNuestros .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  height: 64px;
+  left: 36vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 402px;
 }
