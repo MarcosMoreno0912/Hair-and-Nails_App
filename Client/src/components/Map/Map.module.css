@@ -1,1 +1,7 @@
-Button.module.css
+.map {
+	width: 35vw;
+	height: 400px;
+	margin-left: 2.5vw;
+	margin-top: 1vw;
+	margin-bottom: 5vw;
+}
