@@ -6,11 +6,17 @@ const Contact = () => {
 
 	return (
 		<>
-			<div className={style.tituloNuestros}>
+			<div className={style.tituloContacto}>
       	<div className={style.textWrapper}>Contacto</div>
     	</div>
-    	<div>
-    		<Maps />
+    	<div className={style.containMapForm}>
+    		<div className={style.label}>
+					<div className={style.textWrapper}>Ubicación</div>
+				</div>
+    		<div className={style.map} >
+    			<Maps />
+    		</div>
+    		
     	</div>
 		</>
 	)

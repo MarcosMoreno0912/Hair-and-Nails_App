@@ -1,11 +1,11 @@
-.tituloNuestros {
+.tituloContacto {
   background-color: #678a7480;
   height: 98px;
   position: relative;
   width: 103%;
 }
 
-.tituloNuestros .textWrapper {
+.tituloContacto .textWrapper {
   color: #000000;
   font-family: "Kaushan Script", cursive;
   font-size: 64px;
@@ -19,4 +19,47 @@
   top: 0;
   white-space: nowrap;
   width: 402px;
+}
+
+.containMapForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 103%;
+  height: 990px;
+  background-color: #FFBABA;
+  margin-top: 0;
+}
+
+.containMapForm .label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  height: 28px;
+  width: 228px;
+  z-index: 9999;
+  left: 7vw;
+  top: 5vw;
+}
+
+ .containMapForm .label .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  height: 38px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: 0;
+  white-space: nowrap;
+  width: 228px;
+}
+
+.containMapForm .map {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6vw;
 }
