@@ -8,9 +8,9 @@ const Maps = () => {
 
     const map = new mapboxgl.Map({
       container: 'map', // El ID de un div donde se renderizará el mapa
-      style: 'mapbox://styles/mapbox/streets-v11', // Estilo de mapa (puedes personalizarlo)
-      center: [-33.282766, -66.322073], // Coordenadas del centro del mapa
-      zoom: 16, // Nivel de zoom
+      style: 'mapbox://styles/mapbox/streets-v10', // Estilo de mapa (puedes personalizarlo)
+      center: [-33.282766,-66.322073], // Coordenadas del centro del mapa
+      zoom: 19, // Nivel de zoom
     });
 
     // Añade marcadores, capas, etc., según tus necesidades.

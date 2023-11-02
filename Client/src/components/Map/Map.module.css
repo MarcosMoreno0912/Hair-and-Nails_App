@@ -1,7 +1,15 @@
 .map {
-	width: 35vw;
-	height: 400px;
+	width: 650px;
+	height: 561px;
 	margin-left: 2.5vw;
 	margin-top: 1vw;
 	margin-bottom: 5vw;
+}
+
+.map a {
+	display: none;
+}
+
+.map button {
+	display: none;
 }
