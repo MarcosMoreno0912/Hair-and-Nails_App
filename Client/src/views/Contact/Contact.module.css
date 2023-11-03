@@ -40,7 +40,7 @@
   width: 228px;
   z-index: 9999;
   left: 7vw;
-  top: 5vw;
+  top: -1.7vw;
 }
 
 .pin {
@@ -51,7 +51,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  top: 7.5vw;
+  top: 0.7vw;
   width: 67px;
 }
 
@@ -73,5 +73,5 @@
 .containMapForm .map {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 6vw;
+  margin-top: -1.5vw;
 }
