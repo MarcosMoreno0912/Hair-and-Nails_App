@@ -43,11 +43,23 @@
   top: 5vw;
 }
 
+.pin {
+  height: 67px;
+  left: 2.3vw;
+  background-image: url('../../assets/locationBlack.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 7.5vw;
+  width: 67px;
+}
+
  .containMapForm .label .textWrapper {
   color: #000000;
   font-family: "Josefin Sans", sans-serif;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 550;
   height: 38px;
   left: 0;
   letter-spacing: 0;

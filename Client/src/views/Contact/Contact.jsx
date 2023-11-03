@@ -10,6 +10,7 @@ const Contact = () => {
       	<div className={style.textWrapper}>Contacto</div>
     	</div>
     	<div className={style.containMapForm}>
+				<div className={style.pin}></div>
     		<div className={style.label}>
 					<div className={style.textWrapper}>Ubicación</div>
 				</div>
