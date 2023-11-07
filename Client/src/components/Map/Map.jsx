@@ -8,12 +8,15 @@ const Maps = () => {
 
     const map = new mapboxgl.Map({
       container: 'map', // El ID de un div donde se renderizará el mapa
-      style: 'mapbox://styles/mapbox/streets-v10', // Estilo de mapa (puedes personalizarlo)
-      center: [-33.282766,-66.322073], // Coordenadas del centro del mapa
-      zoom: 19, // Nivel de zoom
+      style: 'mapbox://styles/mapbox/streets-v11', // Estilo de mapa
+      center: [-66.32208629884008, -33.28284231251608], // Coordenadas del centro del mapa
+      zoom: 15, // Nivel de zoom
     });
 
-    // Añade marcadores, capas, etc., según tus necesidades.
+    // Añade marcadores, capas, etc., según tus necesidades
+    new mapboxgl.Marker()
+      .setLngLat([-66.32208629884008, -33.28284231251608])
+      .addTo(map);
 
     return () => map.remove(); // Limpia el mapa al desmontar el componente.
   }, []);
