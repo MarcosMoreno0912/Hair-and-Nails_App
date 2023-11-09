@@ -1,1 +1,11 @@
-Form.module.css
+.box {
+    height: 561px;
+    width: 650px;
+    border: 2px solid black;
+    left: -1vw;
+    position: relative;
+    top: 6.45vw;
+    border-radius: 4px;
+    background-color: #ffbaba;
+}
+
