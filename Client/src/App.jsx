@@ -6,6 +6,8 @@ import Contact from './views/Contact/Contact.jsx'
 import NavBar from './components/NavBar/NavBar.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import './App.module.css'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
   const location = useLocation()
@@ -23,6 +25,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {footerRoutes.includes(location.pathname) && <Footer />}
+      <ToastContainer />
     </>
   )
 }
