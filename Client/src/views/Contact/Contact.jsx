@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Contact.module.css'
 import Mapa from '../../components/Map/Map.jsx'
+import FormContact from '../../components/Form/Form.jsx'
 
 const Contact = () => {
 
@@ -17,7 +18,9 @@ const Contact = () => {
     		<div className={style.map} >
     			<Mapa />
     		</div>
-    		
+    		<div className={style.form} >
+					<FormContact />
+    		</div>
     	</div>
 		</>
 	)
