@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Contact.module.css'
-import Maps from '../../components/Map/Map.jsx'
+import GoogleMap from '../../components/Map/Map.jsx'
 
 const Contact = () => {
 
@@ -15,7 +15,7 @@ const Contact = () => {
 					<div className={style.textWrapper}>Ubicación</div>
 				</div>
     		<div className={style.map} >
-    			<Maps />
+    			<GoogleMap />
     		</div>
     		
     	</div>
