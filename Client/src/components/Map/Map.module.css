@@ -4,12 +4,10 @@
 	margin-left: 2.5vw;
 	margin-top: 1vw;
 	margin-bottom: 5vw;
-}
-
-.map a {
-	display: none;
-}
-
-.map button {
-	display: none;
+	background-image: url('../../assets/Mapa.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1.5px solid black;
+	border-radius: 4px;
 }
