@@ -1,7 +1,7 @@
 const express = require("express");
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-/*const router = require("./routes/index.js");*/
+const router = require("./emails/routes.js");
 const morgan = require("morgan");
 const cors = require("cors");
 const app = express();
@@ -23,7 +23,7 @@ server.use((req, res, next) => {
 	next();
 });
 
-/*server.use('/', router);*/
+server.use('/', router);
 
 server.use((err, req, res, next) => {
     const status = err.status || 500;
