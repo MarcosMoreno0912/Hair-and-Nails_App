@@ -32,8 +32,23 @@ const validateMessages = {
 const FormContact = () => {
   const [form] =Form.useForm();
 
-  const onFinish = (values) => {
+  const onFinish = async (values) => {
     console.log('values');
+    try {
+      const response = await axios.post('/enviar-correo', values);
+      console.log(response.data.message);
+      toast.success('Correo enviado con éxito', {
+        position: 'top-right',
+        autoClose: 3000,
+      });
+      form.resetFields();
+    } catch (error) {
+      console.error(error);
+      toast.error('Error al enviar el correo', {
+        position: 'top-right',
+        autoClose: 3000,
+      });
+    }
   };
 
   return (
@@ -51,7 +66,7 @@ const FormContact = () => {
       >
         <Form.Item
           name={['user', 'name']}
-          label="Name"
+          label="Nombre"
           rules={[
             {
               required: true,
@@ -71,23 +86,10 @@ const FormContact = () => {
         >
           <Input />
         </Form.Item>
-        <Form.Item
-          name={['user', 'age']}
-          label="Age"
-          rules={[
-            {
-              type: 'number',
-              min: 0,
-              max: 99,
-            },
-          ]}
-        >
-          <InputNumber />
-        </Form.Item>
-        <Form.Item name={['user', 'website']} label="Website">
+        <Form.Item name={['user', 'website']} label="Asunto">
           <Input />
         </Form.Item>
-        <Form.Item name={['user', 'introduction']} label="Introduction">
+        <Form.Item name={['user', 'introduction']} label="Consulta">
           <Input.TextArea />
         </Form.Item>
         <Form.Item
@@ -97,7 +99,7 @@ const FormContact = () => {
           }}
         >
           <Button type="primary" htmlType="submit">
-            Submit
+            Enviar
           </Button>
         </Form.Item>
       </Form>
