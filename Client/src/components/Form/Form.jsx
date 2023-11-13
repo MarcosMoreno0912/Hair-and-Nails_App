@@ -57,16 +57,11 @@ const FormContact = () => {
         {...layout}
         name="nest-messages"
         onFinish={onFinish}
-        style={{
-          maxWidth: 630,
-          padding: 25,
-          left: -100,
-        }}
         validateMessages={validateMessages}
       >
+        <label>*Nombre:</label>
         <Form.Item
           name={['user', 'name']}
-          label="Nombre"
           rules={[
             {
               required: true,
@@ -75,9 +70,9 @@ const FormContact = () => {
         >
           <Input />
         </Form.Item>
+        <label>Email:</label>
         <Form.Item
           name={['user', 'email']}
-          label="Email"
           rules={[
             {
               type: 'email',
@@ -86,11 +81,13 @@ const FormContact = () => {
         >
           <Input />
         </Form.Item>
-        <Form.Item name={['user', 'website']} label="Asunto">
+        <label>Asunto:</label>
+        <Form.Item name={['user', 'website']} >
           <Input />
         </Form.Item>
-        <Form.Item name={['user', 'introduction']} label="Consulta">
-          <Input.TextArea />
+        <label>Consulta:</label>
+        <Form.Item name={['user', 'introduction']} >
+          <Input.TextArea className={style.textArea} style={{ height: 160, }}/>
         </Form.Item>
         <Form.Item
           wrapperCol={{
