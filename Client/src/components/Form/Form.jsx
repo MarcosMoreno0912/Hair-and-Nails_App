@@ -16,9 +16,9 @@ const layout = {
 
 /* eslint-disable no-template-curly-in-string */
 const validateMessages = {
-  required: '${label} es requerido!',
+  required: 'El Nombre es requerido!',
   types: {
-    email: 'Este no es un email válido!',
+    email: 'Este no es un email válido',
     number: '${label} is not a valid number!',
   },
   number: {
