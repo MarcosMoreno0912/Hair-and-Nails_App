@@ -19,14 +19,14 @@ routes.post('/enviar-correo', (req, res) => {
   const datosFormulario = req.body;
   console.log('datosFormulario');
 
-  const { name, email, descripcion } = datosFormulario.user;
+  const { name, email, consulta } = datosFormulario.user;
   const asunto = datosFormulario.user.asunto;
   
   const mailOptions = {
     from: 'moreno83marcos@gmail.com', // Tu dirección de correo Gmail
-    to: 'moreno83marcos@gmail.com', // La dirección donde deseas recibir los mensajes
+    to: 'micaimoreno5298717@gmail.com', // La dirección donde deseas recibir los mensajes
     subject: asunto,
-    text: `Nombre: ${name}\nEmail: ${email}\nMensaje: ${descripcion}`,
+    text: `Nombre: ${name}\nEmail: ${email}\nMensaje: ${consulta}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
