@@ -27,7 +27,10 @@
 }
 
 .recuadroDeFotos .rectangle {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/p6.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   height: 180px;
   left: 52vw;
   position: absolute;
@@ -48,7 +51,10 @@
 }
 
 .recuadroDeFotos .rectangle2 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/p9.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
   height: 180px;
   left: 85.7vw;
   position: absolute;
@@ -69,7 +75,10 @@
 }
 
 .recuadroDeFotos .rectangle4 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/p8.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   height: 180px;
   left: 18.65vw;
   position: absolute;
@@ -270,7 +279,10 @@
 }
 
 .recuadroDeFotos .rectangle21 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/p5.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   height: 180px;
   left: 52vw;
   position: absolute;
@@ -290,7 +302,10 @@
 }
 
 .recuadroDeFotos .rectangle23 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/p4.jpg');
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
   height: 180px;
   left: 18.7vw;
   position: absolute;
