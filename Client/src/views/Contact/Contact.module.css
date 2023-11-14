@@ -76,6 +76,34 @@
   margin-top: -1.5vw;
 }
 
-.containMapForm .form {
+.titleEscribenos {
+  height: 67px;
+  position: relative;
+  width: 299px;
+}
 
+.titleEscribenos .textWrapper {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  height: 38px;
+  left: 57vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  bottom: 49.5vw;
+  white-space: nowrap;
+  width: 228px;
+}
+
+.titleEscribenos .ellipse {
+  height: 75px;
+  left: 51vw;
+  position: relative;
+  bottom: 54.4vw;
+  width: 75px;
+  background-image: url('../../assets/emailLogo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
