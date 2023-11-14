@@ -18,6 +18,10 @@ const Contact = () => {
     		<div className={style.map} >
     			<Mapa />
     		</div>
+    		<div className={style.titleEscribenos}>
+					<div className={style.textWrapper}>Escríbenos</div>
+					<div className={style.ellipse} />
+				</div>
     		<div className={style.form} >
 					<FormContact />
     		</div>
