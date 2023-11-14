@@ -10,7 +10,7 @@
 
 .box Form {
   height: 31vw;
-  width: 62vw;
+  width: 40vw;
   margin-left: 3.2vw;
   margin-right: 3.2vw;
   margin-top: 2vw;
@@ -26,15 +26,18 @@
 .box Form input {
   border: 2px solid black;
   height: 3.5vw;
+  width: 41.3vw;
 }
 .box Form .textArea {
   border: 2px solid black;
+  max-width: 41.3vw;
+  max-height: 20vw;
 }
 
 .box Form button {
   display: flex;
   position: relative;
-  right: 4.5vw;
+  left: 2.5vw;
   width: 10vw;
   height: 2.9vw;
   align-items: bottom;
