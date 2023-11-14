@@ -107,3 +107,187 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*-------Datos Contacto--------*/
+
+.containMapForm .datosContacto {
+  position: relative;
+  left: -50vw;
+  top: 10vw;
+}
+
+.containMapForm .datosContacto .rectangle {
+  height: 54px;
+  left: 1px;
+  background-image: url('../../assets/instagramSVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 128px;
+  width: 53px;
+}
+
+.containMapForm .datosContacto .img {
+  height: 54px;
+  left: 628px;
+  position: absolute;
+  background-image: url('../../assets/instagramSVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  top: 128px;
+  width: 53px;
+}
+
+.containMapForm .datosContacto .rectangle2 {
+  height: 54px;
+  left: 1px;
+  background-image: url('../../assets/telefonoSVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  position: absolute;
+  top: 200px;
+  width: 53px;
+}
+
+.containMapForm .datosContacto .rectangle3 {
+  height: 54px;
+  left: 628px;
+  background-image: url('../../assets/telefonoSVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  position: absolute;
+  top: 200px;
+  width: 53px;
+}
+
+.containMapForm .datosContacto .overlap {
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  width: 725px;
+}
+
+.containMapForm .datosContacto .vector {
+  height: 4px;
+  left: 7px;
+  position: absolute;
+  background-image: url('../../assets/LineBlack.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 19px;
+  width: 570px;
+}
+
+.containMapForm .datosContacto .overlapGroup {
+  height: 71px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 725px;
+}
+
+.containMapForm .datosContacto .textWrapper {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  height: 39px;
+  left: 650px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 10px;
+}
+
+.containMapForm .datosContacto .div {
+  color: #000000;
+  font-family: "Kaushan Script", cursive;
+  font-size: 44px;
+  font-weight: 400;
+  height: 34px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 1vw;
+  white-space: nowrap;
+}
+
+.containMapForm .datosContacto .vector2 {
+  height: 4px;
+  left: 751px;
+  position: absolute;
+  background-image: url('../../assets/LineBlack.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 18px;
+  width: 570px;
+}
+
+.containMapForm .datosContacto .textWrapper2 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 34px;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 150px;
+  white-space: nowrap;
+}
+
+.containMapForm .datosContacto .textWrapper3 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 34px;
+  left: 697px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 150px;
+  white-space: nowrap;
+}
+
+.containMapForm .datosContacto .textWrapper4 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 34px;
+  left: 62px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 228px;
+  white-space: nowrap;
+}
+
+.containMapForm .datosContacto .textWrapper5 {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 34px;
+  left: 697px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 228px;
+  white-space: nowrap;
+}
