@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Form.module.css";
 import { Button, Form, Input, InputNumber } from 'antd';
 import axios from 'axios';
@@ -30,18 +30,34 @@ const validateMessages = {
 
 
 const FormContact = () => {
-  const [form] =Form.useForm();
+  const [form] = Form.useForm();
+  const [formValues, setFormValues] = useState({
+    user: {
+      name: '',
+      email: '',
+      asunto: '',
+      consulta: '',
+    },
+  });
 
   const onFinish = async (values) => {
     console.log('values');
     try {
-      const response = await axios.post('/enviar-correo', values);
+      const response = await axios.post('http://localhost:3001/enviar-correo', values);
       console.log(response.data.message);
       toast.success('Correo enviado con éxito', {
         position: 'top-right',
         autoClose: 3000,
       });
       form.resetFields();
+      setFormValues({
+        user: {
+          name: '',
+          email: '',
+          asunto: '',
+          consulta: '',
+        },
+      });
     } catch (error) {
       console.error(error);
       toast.error('Error al enviar el correo', {
@@ -68,7 +84,15 @@ const FormContact = () => {
             },
           ]}
         >
-          <Input />
+          <Input 
+            value={formValues.user.name}
+            onChange={(e) => 
+              setFormValues({
+                ...formValues,
+                user: { ...formValues.user, name: e.target.value },
+              })
+            }
+          />
         </Form.Item>
         <label>Email:</label>
         <Form.Item
@@ -79,15 +103,39 @@ const FormContact = () => {
             },
           ]}
         >
-          <Input />
+          <Input 
+            value={formValues.user.email}
+            onChange={(e) => 
+              setFormValues({
+                ...formValues,
+                user: { ...formValues.user, email: e.target.value },
+              })
+            }
+          />
         </Form.Item>
         <label>Asunto:</label>
-        <Form.Item name={['user', 'website']} >
-          <Input />
+        <Form.Item name={['user', 'asunto']} >
+          <Input 
+            value={formValues.user.asunto}
+            onChange={(e) => 
+              setFormValues({
+                ...formValues,
+                user: { ...formValues.user, asunto: e.target.value },
+              })
+            }
+          />
         </Form.Item>
         <label>Consulta:</label>
-        <Form.Item name={['user', 'introduction']} >
-          <Input.TextArea className={style.textArea} style={{ height: 160, }}/>
+        <Form.Item name={['user', 'consulta']} >
+          <Input.TextArea className={style.textArea} style={{ height: 160, width: 800, }} 
+            value={formValues.user.consulta}
+            onChange={(e) => 
+              setFormValues({
+                ...formValues,
+                user: { ...formValues.user, consulta: e.target.value },
+              })
+            }
+          />
         </Form.Item>
         <Form.Item
           wrapperCol={{
