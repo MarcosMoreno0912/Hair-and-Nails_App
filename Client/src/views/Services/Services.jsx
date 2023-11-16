@@ -118,6 +118,10 @@ const Services = () => {
 					</p>
 				</div>
 				<div className={style.fotosManicura}></div>
+				<div className={style.listadoPrecios}>
+					<div className={style.rectangle} />
+					<div className={style.img} />
+				</div>
 			</div>
 		</>
 	)
