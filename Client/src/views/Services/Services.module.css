@@ -134,3 +134,34 @@
   left: 2.5vw;
   transform: rotate(180deg);
 }
+
+.listadoPrecios {
+  background-color: #d9d9d9;
+  height: 700px;
+  position: relative;
+  width: 103%;
+}
+
+.listadoPrecios .rectangle {
+  height: 700px;
+  left: 0;
+  background-image: url('../../assets/PreciosPeluqueria.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  width: 30vw;
+}
+
+.listadoPrecios .img {
+  height: 700px;
+  left: 720px;
+  background-image: url('../../assets/PreciosManicura.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  width: 30vw;
+}
