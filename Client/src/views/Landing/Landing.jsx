@@ -52,20 +52,16 @@ const Landing = () => {
 					<div className={style.rectangle4} />
 					<div className={style.textWrapper3}>Promo 1</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.textWrapper4}>.</span>
+							<span className={style.span}>Corte + Nutrición <br/>$7000</span>
 						</p>
 						<p className={style.p}>
-							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.textWrapper4}>.</span>
+							<span className={style.span}>Botox + Peinado <br/>$15000</span>
 						</p>
 						<p className={style.donecLaoreetRutrum2}>
-							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.textWrapper4}>.</span>
+							<span className={style.span}>Corte + Baño de Crema + Color <br/>$10500</span>
 						</p>
 						<p className={style.donecLaoreetRutrum3}>
-							<span className={style.span}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.textWrapper4}>.</span>
+							<span className={style.span}>Corte + Alisado <br/>$9600</span>
 						</p>
 				</div>
 				<div className={style.seccionManicura}>
