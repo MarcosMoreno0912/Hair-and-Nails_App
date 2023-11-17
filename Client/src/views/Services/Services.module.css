@@ -136,7 +136,10 @@
 }
 
 .listadoPrecios {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/fondoRosado.jpg');
+  background-size: cover;
+  background-position: center;
+  top: 0;
   height: 700px;
   position: relative;
   width: 103%;
@@ -144,9 +147,9 @@
 
 .listadoPrecios .rectangle {
   height: 700px;
-  left: 0;
+  left: 19vw;
   background-image: url('../../assets/PreciosPeluqueria.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -156,12 +159,13 @@
 
 .listadoPrecios .img {
   height: 700px;
-  left: 720px;
+  left: 53vw;
   background-image: url('../../assets/PreciosManicura.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   top: 0;
   width: 30vw;
 }
+
