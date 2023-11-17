@@ -358,7 +358,7 @@
   height: 84px;
   left: 1.3vw;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 2.5vw;
   position: absolute;
   text-align: center;
   top: 340px;
@@ -371,10 +371,7 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
-}
-
-.promosPeluqueria .textWrapper4 {
-  font-size: 32px;
+  line-height: 1.7vw;
 }
 
 .promosPeluqueria .p {
@@ -385,7 +382,7 @@
   height: 84px;
   left: 78.3vw;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 2.5vw;
   position: absolute;
   text-align: center;
   top: 340px;
@@ -398,9 +395,9 @@
   font-size: 24px;
   font-weight: 400;
   height: 84px;
-  left: 27.3vw;
+  left: 26.5vw;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 2.5vw;
   position: absolute;
   text-align: center;
   top: 340px;
@@ -415,7 +412,7 @@
   height: 84px;
   left: 52.8vw;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 2.5vw;
   position: absolute;
   text-align: center;
   top: 340px;
