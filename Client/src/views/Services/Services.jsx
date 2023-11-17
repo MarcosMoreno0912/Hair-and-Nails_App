@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Services.module.css'
+import Footer from '../../components/Footer/Footer.jsx'
 
 const Services = () => {
 
@@ -118,10 +119,10 @@ const Services = () => {
 					</p>
 				</div>
 				<div className={style.fotosManicura}></div>
-				<div className={style.listadoPrecios}>
-					<div className={style.rectangle} />
-					<div className={style.img} />
-				</div>
+			</div>
+			<div className={style.listadoPrecios}>
+				<div className={style.rectangle} />
+				<div className={style.img} />
 			</div>
 		</>
 	)
