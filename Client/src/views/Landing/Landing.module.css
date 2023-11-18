@@ -299,7 +299,10 @@
 }
 
 .promosPeluqueria .rectangle {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/peinado.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 2.7%;
   position: absolute;
@@ -308,7 +311,10 @@
 }
 
 .promosPeluqueria .rectangle2 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/bañoDeCrema.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 28%;
   position: absolute;
@@ -317,7 +323,10 @@
 }
 
 .promosPeluqueria .rectangle3 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/alisado.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 53%;
   position: absolute;
@@ -326,7 +335,10 @@
 }
 
 .promosPeluqueria .rectangle4 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/botox.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 78%;
   position: absolute;
