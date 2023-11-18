@@ -77,31 +77,27 @@ const Landing = () => {
 				<div className={style.promosManicura}>
 					<div className={style.overlap}>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textwrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.span}>.</span>
+							<span className={style.textwrapper}>Semi manos + pestañas clás. <br/>$6800</span>
 						</p>
 						<div className={style.div}>Promo 4</div>
 					</div>
 					<div className={style.overlapGroup}>
 						<div className={style.div}>Promo 3</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.span}>.</span>
+							<span className={style.textWrapper}>Soft gel + pestañas clásicas <br/>$7500</span>
 						</p>
 					</div>
 					<div className={style.rectangle} />
 					<div className={style.overlapGroup2}>
 						<div className={style.textWrapper2}>Promo 1</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.span}>.</span>
+							<span className={style.textWrapper}>Semi manos y pies <br/>$5000</span>
 						</p>
 					</div>
 					<div className={style.overlap2}>
 						<div className={style.textWrapper3}>Promo 2</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Donec laoreet rutrum <br/>libero sed pharetra</span>
-							<span className={style.span}>.</span>
+							<span className={style.textWrapper}>Pestañas clásicas <br/>$4800</span>
 						</p>
 					</div>
 					<div className={style.rectangle2} />
