@@ -536,10 +536,18 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
+  line-height: 2.7vw;
 }
 
-.promosManicura .span {
-  font-size: 32px;
+.promosManicura .textwrapper  {
+  color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2.7vw;
+  position: relative;
+  left: -0.5vw;
 }
 
 .promosManicura .div {
