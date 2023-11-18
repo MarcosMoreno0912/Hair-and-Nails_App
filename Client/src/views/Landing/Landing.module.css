@@ -575,7 +575,10 @@
 }
 
 .promosManicura .rectangle {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/semiManosPies.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 2.7%;
   position: absolute;
@@ -632,7 +635,10 @@
 }
 
 .promosManicura .rectangle2 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/pestañasClasicas.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 28%;
   position: absolute;
@@ -641,7 +647,11 @@
 }
 
 .promosManicura .rectangle4 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/Promo3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  rotate: deg(90);
   height: 270px;
   left: 53%;
   position: absolute;
@@ -650,7 +660,10 @@
 }
 
 .promosManicura .rectangle3 {
-  background-color: #d9d9d9;
+  background-image: url('../../assets/Promo4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 270px;
   left: 78%;
   position: absolute;
