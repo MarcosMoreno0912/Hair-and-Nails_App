@@ -80,11 +80,11 @@
   font-size: 28px;
   font-weight: 400;
   height: 169px;
-  left: 0;
+  left: 3.5vw;
   letter-spacing: 0;
   line-height: 2vw;
   position: relative;
-  text-align: center;
+  text-align: left;
   top: 0;
   width: 60vw;
 }
