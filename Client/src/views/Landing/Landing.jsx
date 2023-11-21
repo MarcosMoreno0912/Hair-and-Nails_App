@@ -17,8 +17,9 @@ const Landing = () => {
 					</div>
 					<div className={style.label}>
 						<p className={style.textWrapper}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Donec vel egestas dolor, nec dignissim metus. Donec<br/> 
-							augue elit, rhoncus ac sodales id, porttitor vitae est.
+								Glamour Estética te ofrece servicios de calidad excepcional. 
+							<br/> A través de trabajos de peluquería, cuidado de uñas y realce de pestañas,
+							<br/> descubre una experiencia única donde la excelencia y la belleza convergen.
 						</p>
 					</div>
 					<div className={style.containerVerde}>
@@ -36,7 +37,7 @@ const Landing = () => {
 							</div>
 							<div className={style.text}>
 								<p className={style.p}>
-									Donec laoreet rutrum libero sed pharetra. <br/>Duis a arcu convallis, gravida <br/>purus eget, mollis diam.
+									Transforma tu estilo en nuestro espacio, <br/>donde la creatividad y la maestría <br/>se fusionan para resaltar tu belleza.
 								</p>
 							</div>
 						</div>
@@ -68,7 +69,7 @@ const Landing = () => {
 					<div className={style.overlapGroup}>
 						<div className={style.rectangle} />
 						<p className={style.textWrapper}>
-							Donec laoreet rutrum libero sed pharetra.<br/> Duis a arcu convallis, gravida purus eget,<br/> mollis diam.
+							Descubre la perfección en cada detalle, <br/>donde cuidamos tus uñas y pestañas<br/> con precisión y elegancia.
 						</p>
 						<div className={style.div} />
 						<div className={style.textWrapper2}>Manicura</div>
@@ -91,7 +92,7 @@ const Landing = () => {
 					<div className={style.overlapGroup2}>
 						<div className={style.textWrapper2}>Promo 1</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Semi manos y pies <br/>$5000</span>
+							<span className={style.textWrapper}>Semi de manos y pies <br/>$5000</span>
 						</p>
 					</div>
 					<div className={style.overlap2}>
