@@ -43,7 +43,7 @@ const FormContact = () => {
   const onFinish = async (values) => {
     console.log('values');
     try {
-      const response = await axios.post('http://localhost:3001/enviar-correo', values);
+      const response = await axios.post('/enviar-correo', values);
       console.log(response.data.message);
       toast.success('Correo enviado con éxito', {
         position: 'top-right',
