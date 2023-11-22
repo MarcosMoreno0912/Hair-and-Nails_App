@@ -40,22 +40,22 @@ const Footer = () => {
                 <div className={style.rectangle2}></div>
                 <div className={style.rectangle3}></div>
                 <div className={style.flexcontainer}>
-                    <a href="http://localhost:5173/" className={style.text}>
+                    <a href="https://glamour-estetica.vercel.app/" className={style.text}>
                         <span className={style.span}>
                             Inicio
                         </span>
                     </a>
-                    <a href="http://localhost:5173/services" className={style.text}>
+                    <a href="https://glamour-estetica.vercel.app//services" className={style.text}>
                         <span className={style.span}>
                             Servicios
                         </span>
                     </a>
-                    <a href="http://localhost:5173/jobs" className={style.text}>
+                    <a href="https://glamour-estetica.vercel.app//jobs" className={style.text}>
                         <span className={style.span}>
                             Trabajos
                         </span>
                     </a>
-                    <a href="http://localhost:5173/contact" className={style.text}>
+                    <a href="https://glamour-estetica.vercel.app/contact" className={style.text}>
                         <span className={style.span}>Contáctanos</span>
                     </a>
                 </div>
