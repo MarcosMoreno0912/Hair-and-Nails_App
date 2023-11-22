@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <div className={styles.ellipse}></div>
+        <div className={styles.ellipse} onClick={() => handleNavigation('/')}></div>
         <span>Glamour Estética</span>
       </div>
       <div className={styles.containerButtons}>
