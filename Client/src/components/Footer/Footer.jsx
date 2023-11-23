@@ -29,7 +29,7 @@ const Footer = () => {
                         <br />
                         <br />
                         <br />
-                        @_.mynails
+                        @__.mynails
                         <br />
                         <br />
                         2634765094

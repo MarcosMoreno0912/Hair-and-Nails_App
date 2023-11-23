@@ -39,7 +39,7 @@ const Contact = () => {
 					</div>
 					<div className={style.vector2} />
 					<div className={style.textWrapper2}>@caro.peluqueria_</div>
-					<div className={style.textWrapper3}>@_.mynails</div>
+					<div className={style.textWrapper3}>@__.mynails</div>
 					<div className={style.textWrapper4}>2664841130 (Carolina)</div>
 					<div className={style.textWrapper5}>2634765094 (Micaela)</div>
 				</div>
