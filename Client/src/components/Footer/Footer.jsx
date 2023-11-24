@@ -2,6 +2,11 @@ import React from "react";
 import style from "./Footer.module.css";
 
 const Footer = () => {
+
+    const handleClickDocs = (url) => {
+        window.location.href = url;
+    }
+
     return (
         <div className={style.footer}>
             <div className={style.overlapGroup}>
@@ -40,24 +45,24 @@ const Footer = () => {
                 <div className={style.rectangle2}></div>
                 <div className={style.rectangle3}></div>
                 <div className={style.flexcontainer}>
-                    <a href="https://glamour-estetica.vercel.app/" className={style.text}>
+                    <a href="/" className={style.text}>
                         <span className={style.span}>
                             Inicio
                         </span>
                     </a>
-                    <a href="https://glamour-estetica.vercel.app/services" className={style.text}>
+                    <a href="/services" className={style.text}>
                         <span className={style.span}>
                             Servicios
                         </span>
                     </a>
-                    <a href="https://glamour-estetica.vercel.app/jobs" className={style.text}>
+                    <a href="/jobs" className={style.text}>
                         <span className={style.span}>
                             Trabajos
                         </span>
                     </a>
-                    <a href="https://glamour-estetica.vercel.app/contact" className={style.text}>
+                    <div onClick={() => handleClickDocs("https://glamour-estetica.vercel.app/contact")} className={style.text}>
                         <span className={style.span}>Contáctanos</span>
-                    </a>
+                    </div>
                 </div>
                 <div className={style.textWrapper2}>Descubre</div>
             </div>
