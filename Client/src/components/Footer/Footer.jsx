@@ -48,16 +48,16 @@ const Footer = () => {
                 <div className={style.rectangle2}></div>
                 <div className={style.rectangle3}></div>
                 <div className={style.flexcontainer}>
-                    <a href="/" className={style.text}>
+                    <div onClick={() => handleNavigation("/")} className={style.text}>
                         <span className={style.span}>
                             Inicio
                         </span>
-                    </a>
-                    <a href="/services" className={style.text}>
+                    </div>
+                    <div onClick={() => handleNavigation("/services")} className={style.text}>
                         <span className={style.span}>
                             Servicios
                         </span>
-                    </a>
+                    </div>
                     <div onClick={() => handleNavigation("/jobs")} className={style.text}>
                         <span className={style.span}>
                             Trabajos
