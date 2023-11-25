@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import style from "./Footer.module.css";
 
 const Footer = () => {
 
-    const handleClickDocs = (url) => {
-        window.location.href = url;
+    const navigate = useNavigate()
+
+    const handleNavigation = (route) => {
+        navigate(route);
     }
 
     return (
@@ -55,12 +58,12 @@ const Footer = () => {
                             Servicios
                         </span>
                     </a>
-                    <a href="/jobs" className={style.text}>
+                    <div onClick={() => handleNavigation("/jobs")} className={style.text}>
                         <span className={style.span}>
                             Trabajos
                         </span>
-                    </a>
-                    <div onClick={() => handleClickDocs("https://glamour-estetica.vercel.app/contact")} className={style.text}>
+                    </div>
+                    <div onClick={() => handleNavigation("/contact")} className={style.text}>
                         <span className={style.span}>Contáctanos</span>
                     </div>
                 </div>
