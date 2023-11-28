@@ -213,6 +213,7 @@
   font-weight: 400;
   letter-spacing: 0;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer .textWrapper2 {
