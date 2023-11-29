@@ -687,8 +687,29 @@
     position: relative;
     text-align: center;
     text-shadow: 0px 4px 4px #00000095;
-    top: 13vw;
+    top: 3.5vw;
     width: 7vw;
+  }
+
+  .label {
+    height: 169px;
+    width: 60vw;
+    position: relative;
+    margin-left: 2.5vw;
+    bottom: 8vw;
+  }
+
+  .label .textWrapper {
+    font-size: 2.5vw;
+    font-weight: 400;
+    height: 169px;
+    left: 1.5vw;
+    letter-spacing: 0;
+    line-height: 2.5vw;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 60vw;
   }
 
   .logoTijeraYesmalte {
@@ -696,30 +717,39 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 18vw;
+    position: relative;
+    width: 12vw;
     margin-left: 31vw;
-    margin-top: 15vw;
+    top: 13vw;
   }
 
   .logoTijeraYesmalte .div {
     height: 21vw;
     position: relative;
-    width: 18vw;
+    width: 12vw;
   }
 
   .logoTijeraYesmalte .esmalte {
-    height: 242px;
+    height: 24.5vw;
     left: 22vw;
     position: relative;
     top: 0vw;
-    width: 19vw;
+    width: 16.3vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .logoTijeraYesmalte .tijeras {
-    height: 165px;
+    height: 18.4vw;
     left: 0;
     position: absolute;
     bottom: 10vw;
-    width: 149px;
+    width: 16.8vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
+
+
 }
