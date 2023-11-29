@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom'
 import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   const navigate = useNavigate()
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen)
+  };
 
   const handleNavigation = (route) => {
     navigate(route);
-  }
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -15,6 +20,23 @@ const NavBar = () => {
         <div className={styles.ellipse} onClick={() => handleNavigation('/')}></div>
         <span>Glamour Estética</span>
       </div>
+
+      <button className={styles.menuIcon} onClick={toggleMobileMenu}>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+      </button>
+
+      {/* Contenedor del menú móvil */}
+      {mobileMenuOpen && (
+        <nav className={styles.mobileMenu}>
+          <button onClick={() => handleNavigation('/')}>Inicio</button>
+          <button onClick={() => handleNavigation('/services')}>Servicios</button>
+          <button onClick={() => handleNavigation('/jobs')}>Trabajos</button>
+          <button onClick={() => handleNavigation('/contact')}>Contáctanos</button>
+        </nav>
+      )}
+
       <div className={styles.containerButtons}>
         <div className={styles.navButton}>
           <button onClick={() => handleNavigation('/')} >Inicio</button>
