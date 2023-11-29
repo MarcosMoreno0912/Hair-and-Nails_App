@@ -67,6 +67,134 @@
   font-weight: 500;
 }
 
+/* Estilo para el menú móvil (inicialmente oculto) */
+.navBar .mobileMenu {
+  display: none;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  background-color: darkgray; /* Cambia el color de fondo según tu diseño */
+  position: absolute; /* Asegura que se superponga a otros elementos */
+  top: 9%; /* Coloca el menú debajo del botón de hamburguesa */
+  right: 10px;
+  width: 40%;
+  padding: 10px; /* Espaciado interior para los elementos de menú */
+  border-radius: 0px 0px 4px 4px; /* Igual que en tu .nav */
+  border: 2px solid black;
+
+  /* Otros estilos de diseño específicos según tu preferencia */
+}
+
+/* Estilo para los elementos del menú móvil */
+.navBar .mobileMenu button {
+  background: transparent;
+  border: none;
+  color: black;
+  padding: 10px 0; /* Espaciado vertical para los elementos de menú */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  text-align: center;
+  cursor: pointer;
+  /* Otros estilos de diseño específicos según tu preferencia */
+}
+
+/* Estilo para los elementos del menú móvil al pasar el cursor */
+.navBar .mobileMenu button:hover {
+  background-color: #262626; /* Cambia el color al pasar el cursor */
+  color: white; /* Cambia el color del texto al pasar el cursor */
+}
+
+/* Estilo para el icono de menú (hamburguesa) */
+.navBar .menuIcon {
+  display: none; /* Ocultar en pantallas grandes */
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.navBar .menuIcon .bar {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Estilo para el menú móvil (inicialmente oculto) */
+.navBar .mobileMenu {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .logo .ellipse:hover {
+    transform: scale(1.1);
+  }
+
+  .logo .ellipse {
+    background-image: url('../../assets/LogoRosa.jpg');
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 7vw;
+    width: 7vw;
+    margin-right: 15px;
+  }
+
+  .logo span {
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3vw;
+  }
+
+  /* Botones de Navegación */
+  .containerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
+    margin-left: 20px;
+  }
+
+  .navButton button {
+    background-color: #ffbaba;
+    border-radius: 5px;
+    height: 3.7vw;
+    width: 10.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+    cursor: pointer;
+  }
+
+  .navButton button:hover {
+    transform: scale(1.1);
+  }
+
+  .navButton button {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+}
+
 @media (max-width: 1024px) {
-  
+
+  .containerButtons {
+    display: none;
+  }
+
+  .navBar .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px; /* Ajusta la posición según sea necesario */
+    right: 10px;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    background-color: #262626;
+    border: 2px solid black;
+  }
+
 }
