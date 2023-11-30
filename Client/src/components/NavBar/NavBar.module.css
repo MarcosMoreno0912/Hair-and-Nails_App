@@ -94,7 +94,8 @@
   text-align: center;
   cursor: pointer;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.8vw;
+  font-size: 2vw;
+  font-weight: 550;
 }
 
 /* Estilo para los elementos del menú móvil al pasar el cursor */
