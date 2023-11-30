@@ -186,15 +186,32 @@
     display: none;
   }
 
-  .navBar .mobileMenu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100px; /* Ajusta la posición según sea necesario */
-    right: 10px;
-    width: 200px; /* Ajusta el ancho según sea necesario */
-    background-color: #262626;
-    border: 2px solid black;
+  .navbar .menuIcon {
+    display: inline-block;/* Mostrar el icono de menú en pantallas pequeñas */
+    justify-content: flex-start;
+    height: 4.5vw;
+    width: 4.5vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
   }
 
+  .navbar .mobileMenu {
+    display: flex;
+    margin-bottom: 30%;
+    opacity: 0.98;
+    z-index: 9999;
+  }
+
+  .navbar .menuIcon .bar {
+    width: 97%;
+    height: 11%;
+    background-color: #000000;
+    padding: 0.4px 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10%;
+  }
 }
