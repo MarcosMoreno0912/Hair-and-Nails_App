@@ -761,5 +761,32 @@
   .containerVerde .ellipse4 {
     height: 20.5vw;
     width: 20.5vw;
+    margin-left: -1.5vw;
+  }
+  /*---Sección Peluquería----*/
+  .imagenSeccion {
+    height: 40%;
+  }
+
+  .imagenSeccion .img {
+    height: 100%;
+  }
+
+  .imagenSeccion .cuadroRosa {
+    background-color: #ffbaba;
+    height: 38vw;
+    left: 52vw;
+    position: absolute;
+    top: 2.5vw;
+    width: 47vw;
+  }
+
+  .imagenSeccion .tituloSecundario {
+    background-color: #ffbaba;
+    height: 9vw;
+    left: 56.5vw;
+    position: relative;
+    top: 7vw;
+    width: 20vw;
   }
 }
