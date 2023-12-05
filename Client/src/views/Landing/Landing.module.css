@@ -220,11 +220,11 @@
 
 .imagenSeccion .text {
   background-color: #ffbaba;
-  height: 224px;
+  height: 0;
   left: 52vw;
   position: absolute;
   top: 14vw;
-  width: 47vw;
+  width: 0;
 }
 
 .imagenSeccion .p {
@@ -790,26 +790,33 @@
     width: 30vw;
   }
 
-  .imagenSeccion .text {
-    background-color: #ffbaba;
-    height: 224px;
-    left: 52vw;
-    position: absolute;
-    top: 16vw;
-    width: 37vw;
-  }
-
-  .imagenSeccion .p {
+  .imagenSeccion .textWrapper {
     color: #000000;
-    font-size: 2.5vw;
+    font-family: "Kaushan Script", cursive;
+    font-size: 6.9vw;
     font-weight: 400;
-    height: 7vw;
-    left: -11.5vw;
+    height: 13vw;
+    left: 2.5vw;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
     text-align: center;
-    top: 6vw;
+    bottom: 3vw;
+    white-space: nowrap;
+    width: 390px;
+  }
+
+  .imagenSeccion .p {
+    color: #000000;
+    font-size: 2.3vw;
+    font-weight: 400;
+    height: 7vw;
+    left: -6.5vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 8.5vw;
     width: 660px;
   }
 }
