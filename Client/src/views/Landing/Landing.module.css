@@ -783,10 +783,33 @@
 
   .imagenSeccion .tituloSecundario {
     background-color: #ffbaba;
-    height: 9vw;
-    left: 56.5vw;
+    height: 17vw;
+    left: 54.5vw;
     position: relative;
-    top: 7vw;
-    width: 20vw;
+    top: 10vw;
+    width: 30vw;
+  }
+
+  .imagenSeccion .text {
+    background-color: #ffbaba;
+    height: 224px;
+    left: 52vw;
+    position: absolute;
+    top: 16vw;
+    width: 37vw;
+  }
+
+  .imagenSeccion .p {
+    color: #000000;
+    font-size: 2.5vw;
+    font-weight: 400;
+    height: 7vw;
+    left: -11.5vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 6vw;
+    width: 660px;
   }
 }
