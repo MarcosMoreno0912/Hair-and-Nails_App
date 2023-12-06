@@ -263,7 +263,7 @@
   text-align: center;
   top: 300px;
   white-space: nowrap;
-  width: 290px;
+  width: 20vw;
 }
 
 .promosPeluqueria .div {
@@ -279,7 +279,7 @@
   text-align: center;
   top: 300px;
   white-space: nowrap;
-  width: 290px;
+  width: 20vw;
 }
 
 .promosPeluqueria .textWrapper2 {
@@ -295,7 +295,7 @@
   text-align: center;
   top: 300px;
   white-space: nowrap;
-  width: 290px;
+  width: 20vw;
 }
 
 .promosPeluqueria .rectangle {
@@ -359,7 +359,7 @@
   text-align: center;
   top: 300px;
   white-space: nowrap;
-  width: 290px;
+  width: 20vw;
 }
 
 .promosPeluqueria .donecLaoreetRutrum {
@@ -818,6 +818,30 @@
     text-align: center;
     top: 8.5vw;
     width: 660px;
+  }
+
+  .promosPeluqueria {
+    background-color: #678a7480;
+    height: 450px;
+    position: relative;
+    width: 103%;
+    top: 51.75vw;
+  }
+
+  .promosPeluqueria .rectangle,
+  .promosPeluqueria .rectangle2,
+  .promosPeluqueria .rectangle3,
+  .promosPeluqueria .rectangle4 {
+    width: 20%;
+    height: 50%;
+  }
+
+  .promosPeluqueria .textWrapper,
+  .promosPeluqueria .textWrapper2,
+  .promosPeluqueria .textWrapper3,
+  .promosPeluqueria .div {
+    font-size: 3.2vw;
+    top: 26vw;
   }
 }
 
