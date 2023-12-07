@@ -843,6 +843,31 @@
     font-size: 3.2vw;
     top: 26vw;
   }
+
+  .promosPeluqueria .span {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.2vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.7vw;
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum {
+
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum2 {
+
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum3 {
+
+  }
+
+  .promosPeluqueria .p {
+    
+  }
 }
 
 @media (max-width: 970px) {
