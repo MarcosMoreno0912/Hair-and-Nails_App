@@ -821,11 +821,17 @@
   }
 
   .promosPeluqueria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 0.5fr;
+    grid-template-areas: "rectangle rectangle2 rectangle3 rectangle4"
+    "textWrapper2 textWrapper div textWrapper3 "
+    "span span span span";
     background-color: #678a7480;
-    height: 450px;
+    height: 35vw;
     position: relative;
     width: 103%;
-    top: 51.75vw;
+    top: 0;
   }
 
   .promosPeluqueria .rectangle,
