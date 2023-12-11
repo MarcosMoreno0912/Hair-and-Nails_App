@@ -66,12 +66,9 @@ const Landing = () => {
 						</p>
 				</div>
 				<div className={style.seccionManicura}>
-					<div className={style.overlapGroup}>
-						<div className={style.rectangle} />
-						<p className={style.textWrapper}>
+					<div className={style.overlapGroup}>						<p className={style.textWrapper}>
 							Descubre la perfección en cada detalle, <br/>donde cuidamos tus uñas y pestañas<br/> con precisión y elegancia.
 						</p>
-						<div className={style.div} />
 						<div className={style.textWrapper2}>Manicura</div>
 					</div>
 				</div>
