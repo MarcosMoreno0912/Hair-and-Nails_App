@@ -59,7 +59,7 @@ const Landing = () => {
 							<span className={style.span}>Botox + Peinado <br/>$15000</span>
 						</p>
 						<p className={style.donecLaoreetRutrum2}>
-							<span className={style.span}>Corte + Baño de Crema + Color <br/>$10500</span>
+							<span className={style.span}>Corte + Baño de Crema <br/>+ Color <br/>$10500</span>
 						</p>
 						<p className={style.donecLaoreetRutrum3}>
 							<span className={style.span}>Corte + Alisado <br/>$9600</span>
