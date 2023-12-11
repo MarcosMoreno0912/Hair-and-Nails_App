@@ -475,15 +475,6 @@
   width: 660px;
 }
 
-.seccionManicura .div {
-  background-color: #ffbaba;
-  height: 68px;
-  left: 135px;
-  position: absolute;
-  top: 89px;
-  width: 390px;
-}
-
 .seccionManicura .textWrapper2 {
   color: #000000;
   font-family: "Kaushan Script", cursive;
@@ -885,8 +876,44 @@
     left: 75vw;
     font-size: 2vw;
   }
-}
+  /*----Sección Manicura----*/
+  .seccionManicura {
+    margin-top: -2.3vw;
+  }
 
+  .seccionManicura .overlapGroup {
+    height: 38vw;
+    left: 2.7vw;
+    top: 1.75vw;
+    width: 47vw;
+  }
+
+  .seccionManicura .textWrapper {
+    font-size: 2.3vw;
+    font-weight: 400;
+    height: 7vw;
+    left: -6.7vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 22.5vw;
+    width: 660px;
+  }
+
+  .seccionManicura .textWrapper2 {
+    font-size: 6.9vw;
+    font-weight: 400;
+    height: 68px;
+    left: 5.8vw;
+    position: absolute;
+    text-align: center;
+    top: 5vw;
+    width: 390px;
+  }
+
+}
+/*---------------------------970px----------------*/
 @media (max-width: 970px) {
   .imagenSeccion .cuadroRosa {
     height: 88%;
