@@ -409,7 +409,7 @@
   height: 84px;
   left: 26.5vw;
   letter-spacing: 0;
-  line-height: 2.5vw;
+  line-height: 1.8vw;
   position: absolute;
   text-align: center;
   top: 340px;
@@ -859,24 +859,31 @@
     font-size: 2.2vw;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.7vw;
+    line-height: 2.7vw;
     justify-content: center;
+    position: relative;
+    bottom: 7vw;
   }
 
   .promosPeluqueria .donecLaoreetRutrum {
     left: -2vw;
+    font-size: 2vw;
   }
 
   .promosPeluqueria .donecLaoreetRutrum2 {
-
+    left: 25vw;
+    font-size: 2vw;
+    line-height: 0.3vw;
   }
 
   .promosPeluqueria .donecLaoreetRutrum3 {
-
+    left: 50vw;
+    font-size: 2vw;
   }
 
   .promosPeluqueria .p {
-    
+    left: 75vw;
+    font-size: 2vw;
   }
 }
 
