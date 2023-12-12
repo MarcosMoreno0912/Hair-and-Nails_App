@@ -75,7 +75,7 @@ const Landing = () => {
 				<div className={style.promosManicura}>
 					<div className={style.overlap}>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textwrapper}>Semi manos + pestañas clás. <br/>$6800</span>
+							<span className={style.textwrapper}>Semi manos <br/>+ pestañas clás. <br/>$6800</span>
 						</p>
 						<div className={style.div}>Promo 4</div>
 					</div>
