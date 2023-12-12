@@ -243,3 +243,21 @@
   top: 21.5vw;
   white-space: nowrap;
 }
+
+@media (max-width: 1300px) {
+  .footer .line {
+    height: 0.25vw;
+    left: 3vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42vw;
+  }
+
+  .footer .line2 {
+    height: 0.25vw;
+    left: 57.5vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42vw;
+  }
+}
