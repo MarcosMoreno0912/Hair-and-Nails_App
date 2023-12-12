@@ -498,14 +498,6 @@
   width: 103%;
 }
 
-.promosManicura .overlap {
-  height: 117px;
-  left: 1092px;
-  position: absolute;
-  top: 306px;
-  width: 295px;
-}
-
 .promosManicura .donecLaoreetRutrum {
   color: #000000;
   font-family: "Josefin Sans", sans-serif;
@@ -514,7 +506,7 @@
   height: 84px;
   left: -1.5vw;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 1.7vw;
   position: absolute;
   text-align: center;
   top: 33px;
