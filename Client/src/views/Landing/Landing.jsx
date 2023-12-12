@@ -82,14 +82,14 @@ const Landing = () => {
 					<div className={style.overlapGroup}>
 						<div className={style.div}>Promo 3</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Soft gel + pestañas clásicas <br/>$7500</span>
+							<span className={style.textWrapper}>Soft gel + <br/>pestañas clásicas <br/>$7500</span>
 						</p>
 					</div>
 					<div className={style.rectangle} />
 					<div className={style.overlapGroup2}>
 						<div className={style.textWrapper2}>Promo 1</div>
 						<p className={style.donecLaoreetRutrum}>
-							<span className={style.textWrapper}>Semi de manos y pies <br/>$5000</span>
+							<span className={style.textWrapper}>Semi de manos <br/>y pies <br/>$5000</span>
 						</p>
 					</div>
 					<div className={style.overlap2}>
