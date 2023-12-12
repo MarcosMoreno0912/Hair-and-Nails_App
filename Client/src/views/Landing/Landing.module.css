@@ -876,6 +876,10 @@
     font-size: 2vw;
   }
   /*----Sección Manicura----*/
+  .promosManicura {
+    height: 35vw;
+  }
+
   .seccionManicura {
     margin-top: -2.3vw;
   }
@@ -922,18 +926,18 @@
 
   .promosManicura .overlap {
     height: 117px;
-    left: 78vw;
+    left: 76vw;
     position: absolute;
-    top: 28vw;
+    top: 21vw;
     width: 295px;
-    letter-spacing: -5;
+    letter-spacing: 1;
   }
 
   .promosManicura .overlapGroup {
     height: 117px;
     left: 50.5vw;
     position: absolute;
-    top: 28vw;
+    top: 21vw;
     width: 309px;
     letter-spacing: 0;
     line-height: 0;
@@ -943,7 +947,7 @@
     height: 117px;
     left: 25vw;
     position: absolute;
-    top: 28vw;
+    top: 21vw;
     width: 309px;
   }
 
@@ -951,9 +955,18 @@
     height: 117px;
     left: 0vw;
     position: absolute;
-    top: 28vw;
+    top: 21vw;
     width: 309px;
     line-height: 0;
+  }
+
+  .promosManicura .textWrapper {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.2vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.9vw;
   }
 
 }
