@@ -519,7 +519,7 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 2.7vw;
+  line-height: 1.7vw;
 }
 
 .promosManicura .textwrapper  {
@@ -528,7 +528,7 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 2.7vw;
+  line-height: 1.7vw;
   position: relative;
   left: -0.5vw;
 }
@@ -549,6 +549,14 @@
   width: 290px;
 }
 
+.promosManicura .overlap {
+  height: 117px;
+  left: 1092px;
+  position: absolute;
+  top: 306px;
+  width: 295px;
+}
+
 .promosManicura .overlapGroup {
   height: 117px;
   left: 741px;
@@ -557,16 +565,12 @@
   width: 309px;
 }
 
-.promosManicura .rectangle {
-  background-image: url('../../assets/semiManosPies.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 270px;
-  left: 2.7%;
+.promosManicura .overlap2 {
+  height: 117px;
+  left: 391px;
   position: absolute;
-  top: 28px;
-  width: 270px;
+  top: 306px;
+  width: 309px;
 }
 
 .promosManicura .overlapGroup2 {
@@ -593,14 +597,6 @@
   width: 290px;
 }
 
-.promosManicura .overlap2 {
-  height: 117px;
-  left: 391px;
-  position: absolute;
-  top: 306px;
-  width: 309px;
-}
-
 .promosManicura .textWrapper3 {
   color: #000000;
   font-family: "Kaushan Script", cursive;
@@ -617,6 +613,17 @@
   width: 290px;
 }
 
+.promosManicura .rectangle {
+  background-image: url('../../assets/semiManosPies.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 270px;
+  left: 2.7%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
 .promosManicura .rectangle2 {
   background-image: url('../../assets/pestañasClasicas.jpg');
   background-size: cover;
