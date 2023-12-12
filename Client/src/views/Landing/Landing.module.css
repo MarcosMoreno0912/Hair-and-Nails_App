@@ -636,6 +636,18 @@
   width: 270px;
 }
 
+.promosManicura .rectangle3 {
+  background-image: url('../../assets/Promo4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 270px;
+  left: 78%;
+  position: absolute;
+  top: 28px;
+  width: 270px;
+}
+
 .promosManicura .rectangle4 {
   background-image: url('../../assets/Promo3.png');
   background-size: cover;
@@ -644,18 +656,6 @@
   rotate: deg(90);
   height: 270px;
   left: 53%;
-  position: absolute;
-  top: 28px;
-  width: 270px;
-}
-
-.promosManicura .rectangle3 {
-  background-image: url('../../assets/Promo4.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 270px;
-  left: 78%;
   position: absolute;
   top: 28px;
   width: 270px;
@@ -849,10 +849,10 @@
     font-size: 2.2vw;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 2.7vw;
+    line-height: 2.4vw;
     justify-content: center;
     position: relative;
-    bottom: 7vw;
+    bottom: 8vw;
   }
 
   .promosPeluqueria .donecLaoreetRutrum {
@@ -861,18 +861,18 @@
   }
 
   .promosPeluqueria .donecLaoreetRutrum2 {
-    left: 25vw;
+    left: 24vw;
     font-size: 2vw;
     line-height: 0.3vw;
   }
 
   .promosPeluqueria .donecLaoreetRutrum3 {
-    left: 50vw;
+    left: 49vw;
     font-size: 2vw;
   }
 
   .promosPeluqueria .p {
-    left: 75vw;
+    left: 74vw;
     font-size: 2vw;
   }
   /*----Sección Manicura----*/
@@ -909,6 +909,51 @@
     text-align: center;
     top: 5vw;
     width: 390px;
+  }
+
+  .promosManicura .rectangle,
+  .promosManicura .rectangle2,
+  .promosManicura .rectangle3,
+  .promosManicura .rectangle4 {
+    height: 50%;
+    top: 2vw;
+    width: 20%;
+  }
+
+  .promosManicura .overlap {
+    height: 117px;
+    left: 78vw;
+    position: absolute;
+    top: 28vw;
+    width: 295px;
+    letter-spacing: -5;
+  }
+
+  .promosManicura .overlapGroup {
+    height: 117px;
+    left: 50.5vw;
+    position: absolute;
+    top: 28vw;
+    width: 309px;
+    letter-spacing: 0;
+    line-height: 0;
+  }
+
+  .promosManicura .overlap2 {
+    height: 117px;
+    left: 25vw;
+    position: absolute;
+    top: 28vw;
+    width: 309px;
+  }
+
+  .promosManicura .overlapGroup2 {
+    height: 117px;
+    left: 0vw;
+    position: absolute;
+    top: 28vw;
+    width: 309px;
+    line-height: 0;
   }
 
 }
