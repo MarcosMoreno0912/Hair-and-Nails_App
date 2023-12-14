@@ -299,11 +299,50 @@
     font-size: 1.7vw;
     font-weight: 400;
     left: 6vw;
-    letter-spacing: 0;
-    line-height: none;
-    position: absolute;
     top: 8vw;
-    width: 248px;
   }
 
+  .footer .caroPeluqueria {
+    font-size: 1.7vw;
+    font-weight: 400;
+    left: -6vw;
+    position: absolute;
+    top: 1px;
+    width: 310px;
+  }
+
+  .footer .rectangle {
+    height: 2.3vw;
+    left: 40vw;
+    background-image: url('../../assets/phone.png');
+    background-size: cover;
+    top: 241px;
+    width: 2.2vw;
+  }
+
+  .footer .img {
+    height: 2.2vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 206px;
+    width: 2.2vw;
+  }
+
+  .footer .rectangle2 {
+    height: 2.2vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 126px;
+    width: 2.2vw;
+  }
+
+  .footer .rectangle3 {
+    height: 2.3vw;
+    left: 40vw;
+    background-size: cover;
+    top: 161px;
+    width: 2.2vw;
+  }
 }
