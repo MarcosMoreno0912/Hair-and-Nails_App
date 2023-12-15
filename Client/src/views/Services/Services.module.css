@@ -173,4 +173,19 @@
   .tituloServicios {
     height: 7vw;
   }
+
+  .serviciosPelu .text {
+    align-self: stretch;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+    line-height: 0.45vw;
+    position: relative;
+  }
+
+  .serviciosPelu .textWrapper {
+    font-size: 2.5vw;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+  }
 }
