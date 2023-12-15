@@ -303,10 +303,11 @@
   }
 
   .footer .caroPeluqueria {
+    display: flex;
     font-size: 1.7vw;
     font-weight: 400;
     left: -6vw;
-    position: absolute;
+    position: relative;
     top: 1px;
     width: 310px;
   }
