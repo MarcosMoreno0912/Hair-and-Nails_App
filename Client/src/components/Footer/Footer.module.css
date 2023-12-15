@@ -345,4 +345,43 @@
     top: 161px;
     width: 2.2vw;
   }
+
+  .footer .page {
+    height: 4.5vw;
+    left: 10vw;
+    background-size: cover;
+    top: 0;
+    width: 4.7vw;
+  }
+
+  .footer .vector {
+    height: 5.15vw;
+    left: 10vw;
+    top: 6.4vw;
+    width: 5.2vw;
+  }
+
+  .footer .span {
+    font-size: 1.6vw;
+    font-weight: 400;
+    right: 5.7vw;
+    position: relative;
+    letter-spacing: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .footer .elementStilistNails {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 17vw;
+    letter-spacing: 0;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    top: 23vw;
+    white-space: nowrap;
+  }
 }
