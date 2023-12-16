@@ -188,4 +188,15 @@
     font-weight: 400;
     letter-spacing: 1.28px;
   }
+
+  .fotosPeluqueria {
+    height: 32.7vw;
+    width: 40vw;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 15.4vw;
+    left: 58.5vw;
+  }
 }
