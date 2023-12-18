@@ -55,7 +55,7 @@ const Services = () => {
 						<span className={style.textWrapper}>
 							&gt; Maquillaje
 							<br/>
-							<br/>							
+							<br/>
 						</span>
 					</p>
 					<p className={style.text}>
