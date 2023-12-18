@@ -219,5 +219,15 @@
     margin-right: 2.6vw;
   }
 
-
+  .fotosManicura {
+    height: 32.7vw;
+    width: 40vw;
+    background-image: url('../../assets/FotosServiciosManicura.svg');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 57vw;
+    left: 2.7vw;
+    transform: rotate(180deg);
+  }
 }
