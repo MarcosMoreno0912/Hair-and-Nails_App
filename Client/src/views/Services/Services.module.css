@@ -197,6 +197,27 @@
     background-position: center;
     position: absolute;
     top: 15.4vw;
-    left: 58.5vw;
+    left: 60vw;
   }
+
+  .tituloManicura {
+    height: 7vw;
+  }
+
+  .tituloManicura .textWrapper {
+    font-size: 4.5vw;
+    font-weight: 400;
+    height: 93px;
+    left: 58.5vw;
+    top: 3px;
+  }
+
+  .serviciosManicura .textWrapper {
+    font-size: 2.5vw;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+    margin-right: 2.6vw;
+  }
+
+
 }
