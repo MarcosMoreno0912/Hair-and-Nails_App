@@ -343,3 +343,17 @@
   width: 440px;
 }
 
+@media (max-width: 1300px) {
+  .titulo {
+    height: 7vw;
+    position: relative;
+    width: 103%;
+  }
+
+  .titulo .textWrapper {
+    font-size: 4.5vw;
+    font-weight: 400;
+    height: 93px;
+    left: 36vw;
+  }
+}
