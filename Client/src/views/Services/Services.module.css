@@ -230,4 +230,8 @@
     left: 2.7vw;
     transform: rotate(180deg);
   }
+
+  .listadoPrecios .img {
+    left: 53.5vw;
+  }
 }
