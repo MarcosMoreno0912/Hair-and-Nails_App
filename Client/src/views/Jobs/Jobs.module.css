@@ -358,31 +358,19 @@
   }
 
   .recuadroDeFotos .textWrapper {
-    color: #000000;
-    font-family: "Kaushan Script", cursive;
     font-size: 4.3vw;
-    font-weight: 400;
     height: 62px;
     left: 35vw;
-    letter-spacing: 0;
-    line-height: normal;
     position: absolute;
-    text-align: center;
     top: 0.3vw;
     width: 440px;
   }
 
   .recuadroDeFotos .textWrapper2 {
-    color: #000000;
-    font-family: "Kaushan Script", cursive;
     font-size: 4vw;
-    font-weight: 400;
     height: 60px;
     left: 35vw;
-    letter-spacing: 0;
-    line-height: normal;
     position: absolute;
-    text-align: center;
     top: 500px;
     width: 440px;
   }
@@ -394,6 +382,65 @@
     background-position: center;
     height: 14vw;
     left: 2.2vw;
+    position: absolute;
+    top: 7.25vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle23 {
+    background-image: url('../../assets/p4.jpg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    height: 14vw;
+    left: 18.7vw;
+    position: absolute;
+    top: 7.25vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle20 {
+    background-image: url('../../assets/p11.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 14vw;
+    left: 35.15vw;
+    position: absolute;
+    top: 7.25vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle21 {
+    background-image: url('../../assets/p5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 14vw;
+    left: 52vw;
+    position: absolute;
+    top: 7.25vw;
+    width: 14.9;
+  }
+
+  .recuadroDeFotos .rectangle22 {
+    background-image: url('../../assets/p12.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 14vw;
+    left: 68.85vw;
+    position: absolute;
+    top: 7.25vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle6 {
+    background-image: url('../../assets/p16.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 14vw;
+    left: 85vw;
     position: absolute;
     top: 7.25vw;
     width: 14.9vw;
