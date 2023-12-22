@@ -371,15 +371,11 @@
     height: 60px;
     left: 35vw;
     position: absolute;
-    top: 500px;
+    top: 38.5vw;
     width: 440px;
   }
 
   .recuadroDeFotos .rectangle7 {
-    background-image: url('../../assets/p10.jpg');
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 14vw;
     left: 2.2vw;
     position: absolute;
@@ -388,10 +384,6 @@
   }
 
   .recuadroDeFotos .rectangle23 {
-    background-image: url('../../assets/p4.jpg');
-    background-repeat: no-repeat;
-    background-size: 85%;
-    background-position: center;
     height: 14vw;
     left: 18.7vw;
     position: absolute;
@@ -400,10 +392,6 @@
   }
 
   .recuadroDeFotos .rectangle20 {
-    background-image: url('../../assets/p11.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
     height: 14vw;
     left: 35.15vw;
     position: absolute;
@@ -412,10 +400,6 @@
   }
 
   .recuadroDeFotos .rectangle21 {
-    background-image: url('../../assets/p5.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 14vw;
     left: 52vw;
     position: absolute;
@@ -424,9 +408,6 @@
   }
 
   .recuadroDeFotos .rectangle22 {
-    background-image: url('../../assets/p12.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 14vw;
     left: 68.85vw;
     position: absolute;
@@ -435,10 +416,6 @@
   }
 
   .recuadroDeFotos .rectangle6 {
-    background-image: url('../../assets/p16.jpg');
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: 70%;
     height: 14vw;
     left: 85vw;
     position: absolute;
@@ -447,10 +424,6 @@
   }
 
   .recuadroDeFotos .rectangle3 {
-    background-image: url('../../assets/p13.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 14vw;
     left: 2.2vw;
     position: absolute;
@@ -459,10 +432,6 @@
   }
 
   .recuadroDeFotos .rectangle4 {
-    background-image: url('../../assets/p8.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 14vw;
     left: 18.65vw;
     position: absolute;
@@ -471,10 +440,6 @@
   }
 
   .recuadroDeFotos .rectangle5 {
-    background-image: url('../../assets/p14.jpg');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: 70%;
     height: 14vw;
     left: 34.6vw;
     position: absolute;
@@ -483,10 +448,6 @@
   }
 
   .recuadroDeFotos .rectangle {
-    background-image: url('../../assets/p6.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 14vw;
     left: 52vw;
     position: absolute;
@@ -495,10 +456,6 @@
   }
 
   .recuadroDeFotos .div {
-    background-image: url('../../assets/p15.jpg');
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: center;
     height: 14vw;
     left: 68.5vw;
     position: absolute;
@@ -507,10 +464,6 @@
   }
 
   .recuadroDeFotos .rectangle2 {
-    background-image: url('../../assets/p9.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
     height: 14vw;
     left: 85.7vw;
     position: absolute;
@@ -519,10 +472,6 @@
   }
 
   .recuadroDeFotos .rectangle8 {
-    background-image: url('../../assets/50.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 2.2vw;
     position: absolute;
@@ -531,10 +480,6 @@
   }
 
   .recuadroDeFotos .rectangle9 {
-    background-image: url('../../assets/31.jpg');
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
     height: 14vw;
     left: 18.65vw;
     position: absolute;
@@ -543,10 +488,6 @@
   }
 
   .recuadroDeFotos .rectangle11 {
-    background-image: url('../../assets/46.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 35.16vw;
     position: absolute;
@@ -555,10 +496,6 @@
   }
 
   .recuadroDeFotos .rectangle13 {
-    background-image: url('../../assets/43.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 52.2vw;
     position: absolute;
@@ -567,10 +504,6 @@
   }
 
   .recuadroDeFotos .rectangle15 {
-    background-image: url('../../assets/38.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 68.82vw;
     position: absolute;
@@ -579,10 +512,6 @@
   }
 
   .recuadroDeFotos .rectangle17 {
-    background-image: url('../../assets/35.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 85.7vw;
     position: absolute;
@@ -591,10 +520,6 @@
   }
 
   .recuadroDeFotos .rectangle19 {
-    background-image: url('../../assets/55.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
     height: 14vw;
     left: 2.2vw;
     position: absolute;
@@ -603,10 +528,6 @@
   }
 
   .recuadroDeFotos .rectangle10 {
-    background-image: url('../../assets/30.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 18.65vw;
     position: absolute;
@@ -615,10 +536,6 @@
   }
 
   .recuadroDeFotos .rectangle12 {
-    background-image: url('../../assets/51.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 35.16vw;
     position: absolute;
@@ -627,10 +544,6 @@
   }
 
   .recuadroDeFotos .rectangle14 {
-    background-image: url('../../assets/32.jpg');
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: center;
     height: 14vw;
     left: 52.2vw;
     position: absolute;
@@ -639,10 +552,6 @@
   }
 
   .recuadroDeFotos .rectangle16 {
-    background-image: url('../../assets/47.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 68.82vw;
     position: absolute;
@@ -651,10 +560,6 @@
   }
 
   .recuadroDeFotos .rectangle18 {
-    background-image: url('../../assets/27.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 14vw;
     left: 85.7vw;
     position: absolute;
