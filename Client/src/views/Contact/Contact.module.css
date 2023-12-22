@@ -301,18 +301,8 @@
   }
 
   .tituloContacto .textWrapper {
-    color: #000000;
-    font-family: "Kaushan Script", cursive;
     font-size: 5vw;
-    font-weight: 400;
     height: 64px;
     left: 36vw;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    white-space: nowrap;
-    width: 402px;
   }
 }
