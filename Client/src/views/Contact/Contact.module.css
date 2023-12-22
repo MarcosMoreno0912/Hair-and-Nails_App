@@ -291,3 +291,28 @@
   top: 228px;
   white-space: nowrap;
 }
+
+@media (max-width: 1300px) {
+  .tituloContacto {
+    background-color: #678a7480;
+    height: 7.5vw;
+    position: relative;
+    width: 103%;
+  }
+
+  .tituloContacto .textWrapper {
+    color: #000000;
+    font-family: "Kaushan Script", cursive;
+    font-size: 5vw;
+    font-weight: 400;
+    height: 64px;
+    left: 36vw;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 402px;
+  }
+}
