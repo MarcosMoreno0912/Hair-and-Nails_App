@@ -517,4 +517,76 @@
     top: 22.5vw;
     width: 14.9vw;
   }
+
+  .recuadroDeFotos .rectangle8 {
+    background-image: url('../../assets/50.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 2.2vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle9 {
+    background-image: url('../../assets/31.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    height: 14vw;
+    left: 18.65vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle11 {
+    background-image: url('../../assets/46.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 35.16vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle13 {
+    background-image: url('../../assets/43.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 52.2vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle15 {
+    background-image: url('../../assets/38.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 68.82vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle17 {
+    background-image: url('../../assets/35.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 85.7vw;
+    position: absolute;
+    top: 45.4vw;
+    width: 14.9vw;
+  }
 }
