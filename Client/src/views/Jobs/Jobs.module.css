@@ -589,4 +589,76 @@
     top: 45.4vw;
     width: 14.9vw;
   }
+
+  .recuadroDeFotos .rectangle19 {
+    background-image: url('../../assets/55.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 14vw;
+    left: 2.2vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle10 {
+    background-image: url('../../assets/30.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 18.65vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle12 {
+    background-image: url('../../assets/51.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 35.16vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle14 {
+    background-image: url('../../assets/32.jpg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    height: 14vw;
+    left: 52.2vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle16 {
+    background-image: url('../../assets/47.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 68.82vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
+
+  .recuadroDeFotos .rectangle18 {
+    background-image: url('../../assets/27.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 14vw;
+    left: 85.7vw;
+    position: absolute;
+    top: 61vw;
+    width: 14.9vw;
+  }
 }
