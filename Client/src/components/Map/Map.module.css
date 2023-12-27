@@ -11,3 +11,19 @@
 	border: 2px solid black;
 	border-radius: 4px;
 }
+
+@media (max-width: 1300px) {
+	.map {
+		width: 45vw;
+		height: 43.6vw;
+		margin-left: 2.5vw;
+		margin-top: 0.75vw;
+		margin-bottom: 5vw;
+		background-image: url('../../assets/Mapa.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 2px solid black;
+		border-radius: 4px;
+	}
+}
