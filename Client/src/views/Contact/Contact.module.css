@@ -295,7 +295,7 @@
 @media (max-width: 1300px) {
   .tituloContacto {
     background-color: #678a7480;
-    height: 7.5vw;
+    height: 6.5vw;
     position: relative;
     width: 103%;
   }
@@ -303,12 +303,13 @@
   .tituloContacto .textWrapper {
     font-size: 5vw;
     height: 64px;
-    left: 36vw;
+    left: 34.5vw;
+    top: -0.7vw;
   }
 
   .pin {
     height: 5vw;
-    left: 2.3vw;
+    left: 3vw;
     background-image: url('../../assets/locationBlack.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -324,11 +325,11 @@
     font-size: 2.6vw;
     font-weight: 550;
     height: 38px;
-    left: 0;
+    left: 0.7vw;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    top: 0;
+    top: 0.3vw;
     white-space: nowrap;
     width: 228px;
   }
@@ -345,23 +346,63 @@
     font-size: 2.6vw;
     font-weight: 500;
     height: 38px;
-    left: 54.5vw;
+    left: 59vw;
     letter-spacing: 0;
     line-height: normal;
     position: relative;
-    bottom: 51.7vw;
+    bottom: 52vw;
     white-space: nowrap;
     width: 228px;
   }
 
   .titleEscribenos .ellipse {
     height: 75px;
-    left: 48vw;
+    left: 52.5vw;
     position: relative;
-    bottom: 57vw;
+    bottom: 57.6vw;
     width: 75px;
     background-image: url('../../assets/emailLogo.svg');
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .containMapForm .datosContacto .vector {
+    height: 0.3vw;
+    left: 2.5vw;
+    position: absolute;
+    background-image: url('../../assets/LineBlack.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 19px;
+    width: 44vw;
+  }
+
+  .containMapForm .datosContacto .vector2 {
+    height: 0.3vw;
+    left: 54vw;
+    position: absolute;
+    background-image: url('../../assets/LineBlack.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 18px;
+    width: 44vw;
+  }
+
+  .containMapForm .datosContacto .textWrapper {
+    color: #000000;
+    font-family: "Kaushan Script", cursive;
+    font-size: 36px;
+    font-weight: 400;
+    height: 39px;
+    left: 49vw;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 10px;
   }
 }
