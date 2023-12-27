@@ -54,9 +54,9 @@
 @media (max-width: 1300px) {
   .box {
     height: 43.6vw;
-    width: 47vw;
+    width: 45vw;
     border: 2px solid black;
-    left: -1vw;
+    left: 1vw;
     position: relative;
     top: 6.45vw;
     border-radius: 4px;
@@ -65,7 +65,7 @@
   .box Form {
     height: 31vw;
     width: 5vw;
-    margin-left: 3.2vw;
+    margin-left: 1.9vw;
     margin-right: 3.2vw;
     margin-top: 2vw;
     line-height: 1.5vw;
