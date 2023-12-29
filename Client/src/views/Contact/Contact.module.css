@@ -405,4 +405,18 @@
     white-space: nowrap;
     width: 10px;
   }
+
+  .containMapForm .datosContacto .div {
+    color: #000000;
+    font-family: "Kaushan Script", cursive;
+    font-size: 44px;
+    font-weight: 400;
+    height: 34px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    top: 1vw;
+    white-space: nowrap;
+  }
 }
