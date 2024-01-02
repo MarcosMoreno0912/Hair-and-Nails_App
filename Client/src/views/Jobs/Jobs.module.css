@@ -343,7 +343,7 @@
   width: 440px;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .titulo {
     height: 7vw;
     position: relative;

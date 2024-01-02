@@ -292,7 +292,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .tituloContacto {
     background-color: #678a7480;
     height: 6.5vw;

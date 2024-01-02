@@ -1,5 +1,6 @@
-body {
+body, html {
   margin: 0;
-  max-width: 1400px;
+  padding: 0;
+  max-width: 100%;
   max-height: 3300px;
 }
