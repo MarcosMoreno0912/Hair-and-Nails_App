@@ -169,7 +169,7 @@
   width: 30vw;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .tituloServicios {
     height: 7vw;
   }
