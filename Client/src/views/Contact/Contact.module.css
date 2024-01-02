@@ -419,4 +419,57 @@
     top: 1vw;
     white-space: nowrap;
   }
+
+  .containMapForm .datosContacto .rectangle {
+    height: 4.6vw;
+    left: 0.3vw;
+    background-image: url('../../assets/instagramSVG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 128px;
+    width: 4.5vw;
+  }
+
+  .containMapForm .datosContacto .textWrapper2 {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7vw;
+    font-weight: 400;
+    height: 34px;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    top: 150px;
+    white-space: nowrap;
+  }
+
+  .containMapForm .datosContacto .img {
+    height: 4.6vw;
+    left: 51.5vw;
+    position: absolute;
+    background-image: url('../../assets/instagramSVG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    top: 128px;
+    width: 4.5vw;
+  }
+
+  .containMapForm .datosContacto .textWrapper4 {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7vw;
+    font-weight: 400;
+    height: 34px;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    top: 228px;
+    white-space: nowrap;
+  }
 }
