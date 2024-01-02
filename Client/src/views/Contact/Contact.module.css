@@ -368,7 +368,7 @@
 
   .containMapForm .datosContacto .vector {
     height: 0.3vw;
-    left: 2.5vw;
+    left: 1vw;
     position: absolute;
     background-image: url('../../assets/LineBlack.svg');
     background-repeat: no-repeat;
@@ -380,7 +380,7 @@
 
   .containMapForm .datosContacto .vector2 {
     height: 0.3vw;
-    left: 54vw;
+    left: 52.3vw;
     position: absolute;
     background-image: url('../../assets/LineBlack.svg');
     background-repeat: no-repeat;
@@ -396,7 +396,7 @@
     font-size: 36px;
     font-weight: 400;
     height: 39px;
-    left: 49vw;
+    left: 47.3vw;
     letter-spacing: 0;
     line-height: 34px;
     position: absolute;
@@ -409,7 +409,7 @@
   .containMapForm .datosContacto .div {
     color: #000000;
     font-family: "Kaushan Script", cursive;
-    font-size: 44px;
+    font-size: 3.4vw;
     font-weight: 400;
     height: 34px;
     left: 0;
