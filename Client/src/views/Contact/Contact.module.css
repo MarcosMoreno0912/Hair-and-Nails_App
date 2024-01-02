@@ -307,6 +307,16 @@
     top: -0.7vw;
   }
 
+  .containMapForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 103%;
+    height: 77vw;
+    background-color: #FFBABA;
+    margin-top: 0;
+  }
+
   .pin {
     height: 5vw;
     left: 3vw;
@@ -462,10 +472,64 @@
   .containMapForm .datosContacto .textWrapper4 {
     color: #000000;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 2.7vw;
+    font-size: 2.6vw;
     font-weight: 400;
     height: 34px;
     left: 62px;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    top: 228px;
+    white-space: nowrap;
+  }
+
+  .containMapForm .datosContacto .rectangle2 {
+    height: 4.7vw;
+    left: 1px;
+    background-image: url('../../assets/telefonoSVG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    top: 200px;
+    width: 4.7vw;
+  }
+
+  .containMapForm .datosContacto .rectangle3 {
+    height: 4.7vw;
+    left: 51.4vw;
+    background-image: url('../../assets/telefonoSVG.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+    top: 200px;
+    width: 4.7vw;
+  }
+
+  .containMapForm .datosContacto .textWrapper3 {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7vw;
+    font-weight: 400;
+    height: 34px;
+    left: 57vw;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    top: 150px;
+    white-space: nowrap;
+  }
+
+  .containMapForm .datosContacto .textWrapper5 {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.6vw;
+    font-weight: 400;
+    height: 34px;
+    left: 57vw;
     letter-spacing: 0;
     line-height: 34px;
     position: absolute;
