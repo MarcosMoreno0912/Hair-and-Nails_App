@@ -661,7 +661,7 @@
   width: 270px;
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .promosPeluqueria {
     top: 54.2vw;
     position: relative;
@@ -673,7 +673,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .promosPeluqueria {
     top: 58.2vw;
     position: relative;
@@ -686,7 +686,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .container .image {
     height: 60%;
     width: 103%;
@@ -1003,7 +1003,7 @@
 
 }
 /*---------------------------970px----------------*/
-@media (max-width: 970px) {
+@media screen and (max-width: 970px) {
   .imagenSeccion .cuadroRosa {
     height: 88%;
     width: 47%;
@@ -1037,4 +1037,65 @@
     top: 10.5vw;
     width: 43vw;
   }
+  /*----- promos peluqueria --------*/
+  .promosPeluqueria .rectangle,
+  .promosPeluqueria .rectangle2,
+  .promosPeluqueria .rectangle3,
+  .promosPeluqueria .rectangle4 {
+    width: 20%;
+    height: 50%;
+  }
+
+  .promosPeluqueria .textWrapper,
+  .promosPeluqueria .textWrapper2,
+  .promosPeluqueria .textWrapper3 {
+    display: flex;
+    font-size: 3vw;
+    top: 20vw;
+    justify-content: center;
+    margin-left: 1vw;
+  }
+
+  .promosPeluqueria .div {
+    display: flex;
+    font-size: 3vw;
+    top: 20vw;
+    justify-content: center;
+    margin-left: 1.5vw;
+  }
+
+  .promosPeluqueria .span {
+    grid-area: .span;
+    display: flex;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 2.4vw;
+    justify-content: center;
+    position: relative;
+    bottom: 13vw;
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum {
+    left: -2.6vw;
+    font-size: 2vw;
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum2 {
+    left: 23vw;
+    font-size: 2vw;
+    line-height: 0.3vw;
+  }
+
+  .promosPeluqueria .donecLaoreetRutrum3 {
+    left: 49vw;
+    font-size: 2vw;
+  }
+
+  .promosPeluqueria .p {
+    left: 74.7vw;
+    font-size: 2vw;
+  }
+  /*------ titulo seccion manicura -----*/
+  
 }
