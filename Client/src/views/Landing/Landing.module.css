@@ -1208,13 +1208,14 @@
   letter-spacing: 0;
   line-height: 2.3vw;
 }
-.promosManicura .overlap .textWrapper span {
+.promosManicura .overlap .textWrapper {
   line-height: 2.3vw;
   font-size: 2.2vw;
 }
 
-.promosManicura .donecLaoreetRutrum {
+.promosManicura .donecLaoreetRutrum p {
   font-size: 2.2vw;
+  line-height: 2.3vw;
 }
  
 }
