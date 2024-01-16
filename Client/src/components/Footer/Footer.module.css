@@ -386,3 +386,146 @@
     white-space: nowrap;
   }
 }
+
+@media (max-width: 1100px) {
+  .footer {
+    height: 25vw;
+  }
+
+  .footer .line {
+    height: 0.25vw;
+    left: 3vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42vw;
+  }
+
+  .footer .line2 {
+    height: 0.25vw;
+    left: 57.5vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42vw;
+  }
+
+  .footer .textWrapper {
+    font-size: 2.2vw;
+    font-weight: 500;
+    left: 6vw;
+    top: 6.5vw;
+  }
+
+  .footer .div {
+    font-size: 2.2vw;
+    font-weight: 500;
+    left: 39.5vw;
+    top: 6.5vw;
+  }
+
+  .footer .textWrapper2 {
+    font-size: 2.2vw;
+    font-weight: 500;
+    left: 85.5vw;
+    top: 6.5vw;
+  }
+
+  .footer .ellipse {
+    height: 3vw;
+    left: 3vw;
+    position: absolute;
+    top: 9.3vw;
+    width: 3vw;
+    background-size: cover;
+  }
+
+  .footer .direccion {
+    font-size: 2vw;
+    font-weight: 400;
+    left: 6vw;
+    top: 8vw;
+  }
+
+  .footer .caroPeluqueria {
+    display: flex;
+    font-size: 2vw;
+    font-weight: 400;
+    left: -14vw;
+    position: relative;
+    top: -2vw;
+    width: 310px;
+  }
+
+  .footer .rectangle {
+    height: 2.3vw;
+    left: 40vw;
+    background-image: url('../../assets/phone.png');
+    background-size: cover;
+    top: 241px;
+    width: 2.2vw;
+  }
+
+  .footer .img {
+    height: 2.2vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 206px;
+    width: 2.2vw;
+  }
+
+  .footer .rectangle2 {
+    height: 2.2vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 126px;
+    width: 2.2vw;
+  }
+
+  .footer .rectangle3 {
+    height: 2.3vw;
+    left: 40vw;
+    background-size: cover;
+    top: 161px;
+    width: 2.2vw;
+  }
+
+  .footer .page {
+    height: 4.5vw;
+    left: 10vw;
+    background-size: cover;
+    top: 0;
+    width: 4.7vw;
+  }
+
+  .footer .vector {
+    height: 5.15vw;
+    left: 10vw;
+    top: 6.4vw;
+    width: 5.2vw;
+  }
+
+  .footer .span {
+    font-size: 1.6vw;
+    font-weight: 400;
+    right: 5.7vw;
+    position: relative;
+    letter-spacing: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .footer .elementStilistNails {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 17vw;
+    letter-spacing: 0;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    top: 23vw;
+    white-space: nowrap;
+  }
+}
