@@ -400,6 +400,18 @@
     width: 42vw;
   }
 
+  .footer .ellipse2 {
+    height: 6vw;
+    left: 48.5vw;
+    background-image: url('../../assets/mandala.png');
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 4px;
+    width: 6vw;
+  }
+
   .footer .line2 {
     height: 0.25vw;
     left: 57.5vw;
@@ -418,23 +430,23 @@
   .footer .div {
     font-size: 2.2vw;
     font-weight: 500;
-    left: 39.5vw;
+    left: 37.5vw;
     top: 6.5vw;
   }
 
   .footer .textWrapper2 {
     font-size: 2.2vw;
     font-weight: 500;
-    left: 85.5vw;
+    left: 82.5vw;
     top: 6.5vw;
   }
 
   .footer .ellipse {
-    height: 3vw;
-    left: 3vw;
+    height: 3.5vw;
+    left: 2.8vw;
     position: absolute;
     top: 9.3vw;
-    width: 3vw;
+    width: 3.5vw;
     background-size: cover;
   }
 
@@ -460,7 +472,7 @@
     left: 40vw;
     background-image: url('../../assets/phone.png');
     background-size: cover;
-    top: 241px;
+    top: 20vw;
     width: 2.2vw;
   }
 
@@ -469,7 +481,7 @@
     left: 40vw;
     background-image: url('../../assets/instagram.png');
     background-size: cover;
-    top: 206px;
+    top: 17vw;
     width: 2.2vw;
   }
 
@@ -478,35 +490,60 @@
     left: 40vw;
     background-image: url('../../assets/instagram.png');
     background-size: cover;
-    top: 126px;
+    top: 9.5vw;
     width: 2.2vw;
   }
 
   .footer .rectangle3 {
     height: 2.3vw;
     left: 40vw;
+    background-image: url('../../assets/phone.png');
     background-size: cover;
-    top: 161px;
+    top: 12.5vw;
     width: 2.2vw;
   }
 
   .footer .page {
     height: 4.5vw;
-    left: 10vw;
+    left: 4vw;
     background-size: cover;
-    top: 0;
+    top: -2vw;
     width: 4.7vw;
   }
 
   .footer .vector {
     height: 5.15vw;
-    left: 10vw;
-    top: 6.4vw;
+    left: 4vw;
+    top: 6vw;
     width: 5.2vw;
   }
 
+  .footer .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: 139px;
+    left: 82vw;
+    position: absolute;
+    top: 9.5vw;
+    width: 242px;
+  }
+  
+  .footer .text {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 6.7vw;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1vw;
+    position: relative;
+    text-align: right;
+  }
+
   .footer .span {
-    font-size: 1.6vw;
+    font-size: 2vw;
     font-weight: 400;
     right: 5.7vw;
     position: relative;
