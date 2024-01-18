@@ -8,7 +8,7 @@
 
 .footer .overlapGroup {
   background-color: #000000;
-  height: 300px;
+  height: 333px;
   left: 0;
   right: 5vw;
   position: absolute;
@@ -385,6 +385,12 @@
     top: 23vw;
     white-space: nowrap;
   }
+
+  .footer .overlapGroup {
+    height: 23.5vw;
+    position: absolute;
+    width: 103%;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -555,14 +561,203 @@
   .footer .elementStilistNails {
     color: #000000;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 22px;
+    font-size: 1.8vw;
     font-weight: 400;
-    left: 17vw;
+    left: 14vw;
     letter-spacing: 0;
     line-height: 0;
     position: absolute;
     text-align: center;
-    top: 23vw;
+    top: 27vw;
     white-space: nowrap;
+  }
+
+  .footer .overlapGroup {
+    height: 27.3vw;
+    position: absolute;
+    width: 103%;
+  }
+}
+
+@media (max-width: 970px) {
+  .footer {
+    height: 10vw;
+  }
+
+  .footer .line {
+    height: 0.23vw;
+    left: 3vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42.3vw;
+  }
+
+  .footer .ellipse2 {
+    height: 5.5vw;
+    left: 48.9vw;
+    background-image: url('../../assets/mandala.png');
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 4px;
+    width: 5.5vw;
+  }
+
+  .footer .line2 {
+    height: 0.23vw;
+    left: 57.5vw;
+    position: absolute;
+    top: 3.15vw;
+    width: 42vw;
+  }
+
+  .footer .textWrapper {
+    font-size: 2.5vw;
+    font-weight: 500;
+    left: 6vw;
+    top: 6.5vw;
+  }
+
+  .footer .div {
+    font-size: 2.5vw;
+    font-weight: 500;
+    left: 35.5vw;
+    top: 6.5vw;
+  }
+
+  .footer .textWrapper2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    left: 80.5vw;
+    top: 6.5vw;
+  }
+
+  .footer .ellipse {
+    height: 3.5vw;
+    left: 2.5vw;
+    position: absolute;
+    top: 9.9vw;
+    width: 3.5vw;
+    background-size: cover;
+  }
+
+  .footer .direccion {
+    font-size: 2vw;
+    font-weight: 400;
+    left: 6vw;
+    top: 8.5vw;
+  }
+
+  .footer .caroPeluqueria {
+    display: flex;
+    font-size: 2vw;
+    font-weight: 400;
+    left: -22vw;
+    position: relative;
+    top: -3vw;
+    width: 310px;
+  }
+
+  .footer .rectangle {
+    height: 2.9vw;
+    left: 40vw;
+    background-image: url('../../assets/phone.png');
+    background-size: cover;
+    top: 22vw;
+    width: 2.8vw;
+  }
+
+  .footer .img {
+    height: 2.8vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 18.2vw;
+    width: 2.8vw;
+  }
+
+  .footer .rectangle2 {
+    height: 2.8vw;
+    left: 40vw;
+    background-image: url('../../assets/instagram.png');
+    background-size: cover;
+    top: 9.7vw;
+    width: 2.8vw;
+  }
+
+  .footer .rectangle3 {
+    height: 2.9vw;
+    left: 40vw;
+    background-image: url('../../assets/phone.png');
+    background-size: cover;
+    top: 13vw;
+    width: 2.8vw;
+  }
+
+  .footer .page {
+    height: 5.5vw;
+    left: -2vw;
+    background-size: cover;
+    top: -1.8vw;
+    width: 5.7vw;
+  }
+
+  .footer .vector {
+    height: 6.15vw;
+    left: -2vw;
+    top: 6vw;
+    width: 6.2vw;
+  }
+
+  .footer .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    height: 139px;
+    left: 79vw;
+    position: absolute;
+    top: 10vw;
+    width: 242px;
+  }
+  
+  .footer .text {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 6.7vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1vw;
+    position: relative;
+    text-align: right;
+  }
+
+  .footer .span {
+    font-size: 2vw;
+    font-weight: 400;
+    right: 5.7vw;
+    position: relative;
+    letter-spacing: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .footer .elementStilistNails {
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    left: 10.5vw;
+    position: absolute;
+    text-align: center;
+    top: 27vw;
+  }
+
+  .footer .overlapGroup {
+    height: 27.3vw;
+    position: absolute;
+    width: 103%;
   }
 }
