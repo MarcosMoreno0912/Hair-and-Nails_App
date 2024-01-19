@@ -1,6 +1,4 @@
-import React from 'react'
 import style from './Services.module.css'
-import Footer from '../../components/Footer/Footer.jsx'
 
 const Services = () => {
 
