@@ -1,6 +1,4 @@
-import React from 'react'
 import style from './Landing.module.css'
-import NavBar from '../../components/NavBar/NavBar.jsx'
 
 const Landing = () => {
 
@@ -9,7 +7,7 @@ const Landing = () => {
 			<div className={style.container}>
 				<div className={style.image}>
 					<div className={style.principalTitle}>Glamour Beauty Salon</div>
-    			<div className={style.logoTijeraYesmalte}>
+    				<div className={style.logoTijeraYesmalte}>
 						<div className={style.div}>
 							<div className={style.esmalte}></div>
 							<div className={style.tijeras}></div>
