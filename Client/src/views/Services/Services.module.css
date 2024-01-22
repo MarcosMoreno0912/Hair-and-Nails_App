@@ -97,12 +97,11 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 0;
   height: 377px;
-  left: 40.5vw;
+  left: 43vw;
   position: relative;
   top: 0.9vw;
-  width: 784px;
+  width: 55vw;
 }
 
 .serviciosManicura .text {
@@ -219,6 +218,17 @@
     margin-right: 2.6vw;
   }
 
+  .serviciosManicura .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 377px;
+    left: 46.2vw;
+    position: relative;
+    top: 0.9vw;
+    width: 55vw;
+  }
+
   .fotosManicura {
     height: 32.7vw;
     width: 40vw;
@@ -233,5 +243,92 @@
 
   .listadoPrecios .img {
     left: 53.5vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .serviciosPelu .text {
+    top: 1.5vw;
+    align-self: stretch;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+    line-height: 0.75vw;
+    position: relative;
+  }
+
+  .fotosPeluqueria {
+    height: 37.7vw;
+    width: 45vw;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 16.5vw;
+    left: 55vw;
+  }
+
+  .serviciosManicura .text {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+    line-height: 1.4vw;
+    position: relative;
+    text-align: right;
+  }
+
+  .serviciosManicura .flexcontainer {
+    top: 1.5vw;
+    left: 41vw;
+    width: 60vw;
+  }
+
+  .fotosManicura {
+    height: 37.7vw;
+    width: 45vw;
+    background-image: url('../../assets/FotosServiciosManicura.svg');
+    background-size: 97%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 64vw;
+    left: 2.7vw;
+    transform: rotate(180deg);
+  }
+
+  .listadoPrecios {
+    background-image: url('../../assets/fondoRosado.jpg');
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    height: 600px;
+    position: relative;
+    width: 103%;
+  }
+
+  .listadoPrecios .rectangle {
+    height: 600px;
+    left: 19vw;
+    background-image: url('../../assets/PreciosPeluqueria.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 30vw;
+  }
+  
+  .listadoPrecios .img {
+    height: 600px;
+    left: 53vw;
+    background-image: url('../../assets/PreciosManicura.jpg');
+    background-size: 126%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 30vw;
   }
 }
