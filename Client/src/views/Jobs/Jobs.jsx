@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './Jobs.module.css'
 
 const Jobs = () => {
