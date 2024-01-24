@@ -29,8 +29,8 @@
 .recuadroDeFotos .rectangle {
   background-image: url('../../assets/p6.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: 115%;
+  background-position: 5%;
   height: 180px;
   left: 52vw;
   position: absolute;
@@ -43,6 +43,7 @@
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
+  background-color: #000000;
   height: 180px;
   left: 68.82vw;
   position: absolute;
@@ -90,7 +91,8 @@
   background-image: url('../../assets/p14.jpg');
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: 70%;
+  background-position: center;
+  background-color: black;
   height: 180px;
   left: 35.16vw;
   position: absolute;
@@ -102,7 +104,8 @@
   background-image: url('../../assets/p16.jpg');
   background-size: 80%;
   background-repeat: no-repeat;
-  background-position: 70%;
+  background-position: center;
+  background-color: #000000;
   height: 180px;
   left: 85.7vw;
   position: absolute;
@@ -271,6 +274,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
+  background-color: #000000;
   height: 180px;
   left: 35.15vw;
   position: absolute;
@@ -293,7 +297,9 @@
 .recuadroDeFotos .rectangle22 {
   background-image: url('../../assets/p12.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
+  background-color: #000000;
   height: 180px;
   left: 68.85vw;
   position: absolute;
@@ -305,6 +311,7 @@
   background-image: url('../../assets/p4.jpg');
   background-repeat: no-repeat;
   background-size: 85%;
+  background-color: #000000;
   background-position: center;
   height: 180px;
   left: 18.7vw;
@@ -573,13 +580,13 @@
     font-size: 4.5vw;
     font-weight: 400;
     height: 93px;
-    left: 36vw;
+    left: 37vw;
   }
 
   .recuadroDeFotos .textWrapper {
     font-size: 4.3vw;
     height: 62px;
-    left: 35vw;
+    left: 32vw;
     position: absolute;
     top: 0.3vw;
     width: 440px;
@@ -588,106 +595,118 @@
   .recuadroDeFotos .textWrapper2 {
     font-size: 4vw;
     height: 60px;
-    left: 35vw;
+    left: 33vw;
     position: absolute;
     top: 38.5vw;
     width: 440px;
   }
 
   .recuadroDeFotos .rectangle7 {
-    height: 14vw;
-    left: 2.2vw;
+    height: 13vw;
+    left: 3vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle23 {
-    height: 14vw;
-    left: 18.7vw;
+    height: 13vw;
+    left: 19.7vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;  
   }
 
   .recuadroDeFotos .rectangle20 {
-    height: 14vw;
-    left: 35.15vw;
+    height: 13vw;
+    left: 36.15vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle21 {
-    height: 14vw;
-    left: 52vw;
+    height: 13vw;
+    left: 52.5vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle22 {
-    height: 14vw;
-    left: 68.85vw;
+    height: 13vw;
+    left: 69vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle6 {
-    height: 14vw;
-    left: 85vw;
+    height: 13vw;
+    left: 85.5vw;
     position: absolute;
     top: 7.25vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle3 {
-    height: 14vw;
-    left: 2.2vw;
+    height: 13vw;
+    left: 3vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle4 {
-    height: 14vw;
-    left: 18.65vw;
+    height: 13vw;
+    left: 19.65vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle5 {
-    height: 14vw;
-    left: 34.6vw;
+    height: 13vw;
+    left: 36.1vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle {
-    height: 14vw;
-    left: 52vw;
+    height: 13vw;
+    left: 52.5vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .div {
-    height: 14vw;
-    left: 68.5vw;
+    height: 13vw;
+    left: 69vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle2 {
-    height: 14vw;
-    left: 85.7vw;
+    height: 13vw;
+    left: 85.5vw;
     position: absolute;
     top: 22.5vw;
-    width: 14.9vw;
+    width: 13.9vw;
+    border: 1px solid black;
   }
 
   .recuadroDeFotos .rectangle8 {
