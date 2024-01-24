@@ -36,6 +36,7 @@
   position: absolute;
   top: 290px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .div {
@@ -49,6 +50,7 @@
   position: absolute;
   top: 291px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle2 {
@@ -61,6 +63,7 @@
   position: absolute;
   top: 290px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle3 {
@@ -72,7 +75,8 @@
   left: 2.2vw;
   position: absolute;
   top: 291px;
-  width: 190px;
+  width: 190px; 
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle4 {
@@ -85,6 +89,7 @@
   position: absolute;
   top: 291px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle5 {
@@ -98,6 +103,7 @@
   position: absolute;
   top: 290px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle6 {
@@ -111,6 +117,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle7 {
@@ -123,6 +130,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle8 {
@@ -135,6 +143,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle9 {
@@ -147,6 +156,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle10 {
@@ -159,6 +169,7 @@
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle11 {
@@ -171,6 +182,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle12 {
@@ -183,6 +195,7 @@
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle13 {
@@ -195,6 +208,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle14 {
@@ -202,11 +216,13 @@
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
+  background-color: #000000;
   height: 180px;
   left: 52.2vw;
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle15 {
@@ -219,6 +235,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle16 {
@@ -231,6 +248,7 @@
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle17 {
@@ -243,6 +261,7 @@
   position: absolute;
   top: 583px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle18 {
@@ -255,6 +274,7 @@
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle19 {
@@ -267,6 +287,7 @@
   position: absolute;
   top: 783px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle20 {
@@ -280,6 +301,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle21 {
@@ -292,6 +314,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle22 {
@@ -305,6 +328,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .rectangle23 {
@@ -318,6 +342,7 @@
   position: absolute;
   top: 92px;
   width: 190px;
+  border: 1px solid black;
 }
 
 .recuadroDeFotos .textWrapper {
