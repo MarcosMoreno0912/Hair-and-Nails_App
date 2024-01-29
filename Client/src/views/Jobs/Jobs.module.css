@@ -608,6 +608,13 @@
     left: 37vw;
   }
 
+  .recuadroDeFotos {
+    background-color: #ffbaba;
+    height: 80vw;
+    position: relative;
+    width: 103%;
+  }
+
   .recuadroDeFotos .textWrapper {
     font-size: 4.3vw;
     height: 62px;
