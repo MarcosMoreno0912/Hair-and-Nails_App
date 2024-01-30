@@ -605,7 +605,7 @@
     font-size: 4.5vw;
     font-weight: 400;
     height: 93px;
-    left: 37vw;
+    left: 35vw;
   }
 
   .recuadroDeFotos {
@@ -618,7 +618,7 @@
   .recuadroDeFotos .textWrapper {
     font-size: 4.3vw;
     height: 62px;
-    left: 32vw;
+    left: 28vw;
     position: absolute;
     top: 0.3vw;
     width: 440px;
@@ -627,7 +627,7 @@
   .recuadroDeFotos .textWrapper2 {
     font-size: 4vw;
     height: 60px;
-    left: 33vw;
+    left: 28vw;
     position: absolute;
     top: 38.5vw;
     width: 440px;
