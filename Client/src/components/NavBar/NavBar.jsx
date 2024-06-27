@@ -18,7 +18,7 @@ const NavBar = () => {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <div className={styles.ellipse} onClick={() => handleNavigation('/')}></div>
-        <span>Glamour Estética</span>
+        <span>Salon de Belleza</span>
       </div>
 
       <button className={styles.menuIcon} onClick={toggleMobileMenu}>
